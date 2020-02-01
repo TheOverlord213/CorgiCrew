@@ -20,14 +20,22 @@ public class MovableObjectData : MonoBehaviour
 
     public Material transparentMat;
 
+
+
     private void Awake()
     {
         gameController = GameObject.FindGameObjectWithTag("GameController");
-        player = GameObject.FindGameObjectWithTag("Player");
+        player = GameObject.FindGameObjectWithTag("Player2");
+
     }
 
     private void Update()
     {
+        if(player==null)
+        {
+            player = GameObject.FindGameObjectWithTag("Player2");
+        }
+
         if (objectInitialized)
         {
             CheckPos();
@@ -77,6 +85,10 @@ public class MovableObjectData : MonoBehaviour
         Destroy(instantiatedObject.GetComponent<Rigidbody>());
         Destroy(instantiatedObject.GetComponent<MeshCollider>());
         Destroy(instantiatedObject.GetComponent<MovableObjectData>());
+        foreach (Collider c in instantiatedObject.GetComponents<Collider>())
+        {
+            c.enabled = false;
+        }
         instantiatedObject.GetComponent<MeshRenderer>().material = transparentMat;
         instantiatedObject.tag = "SpawnedObject";
 
@@ -85,13 +97,9 @@ public class MovableObjectData : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
        
-        if ((other.tag == "Player" && objectMoved) && gameController.GetComponent<GameManager>().objectPickedUp == false)
+        if ((other.tag == "Player2" && objectMoved) && gameController.GetComponent<GameManager>().objectPickedUp == false)
         {
-            if (Input.GetButtonDown("ItemPickup"))
-            {
-                Debug.Log("input key pressed");
-                gameController.GetComponent<GameManager>().PlayerPickUpDetected(this.gameObject);
-            }
+            gameController.GetComponent<GameManager>().TestDistance(this.gameObject);
         }
     }
 
@@ -101,7 +109,11 @@ public class MovableObjectData : MonoBehaviour
         this.transform.rotation = originRotation;
         Destroy(instantiatedObject);
 
-        this.GetComponent<SphereCollider>().enabled = true;
+
+        foreach (Collider c in GetComponents<Collider>())
+        {
+            c.enabled = true;
+        }
 
         objectMoved = false;
         ObjectSpawned = false;
@@ -126,11 +138,10 @@ public class MovableObjectData : MonoBehaviour
 
     public void PickedUpObject()
     {
-        Debug.Log(Vector3.Distance(transform.position, instantiatedObject.transform.position));
         if (Vector3.Distance(transform.position,instantiatedObject.transform.position)<=1.5f)
         {
-            Debug.Log("Move to here");
             ResetPos();
+            gameController.GetComponent<GameManager>().closeObj = null;
         }
     }
 

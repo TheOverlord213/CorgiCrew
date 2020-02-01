@@ -16,6 +16,8 @@ public class GameManager : MonoBehaviour
 
     private GameObject player;
     public GameObject pickedUpObject;
+    public GameObject closeObj;
+    
 
     private Vector3 playerItemAnchorPoint = new Vector3 (0,0,0);
 
@@ -34,7 +36,7 @@ public class GameManager : MonoBehaviour
             x.GetComponent<SphereCollider>().radius = tempRadius * 1.5f;
         }
 
-        player = GameObject.FindGameObjectWithTag("Player");
+        player = GameObject.FindGameObjectWithTag("Player2");
     }
 
     // Start is called before the first frame update
@@ -47,6 +49,11 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (player == null)
+        {
+            player = GameObject.FindGameObjectWithTag("Player2");
+        }
+
         if (!objectWaitBool)
         {
             ObjectWait();
@@ -56,6 +63,8 @@ public class GameManager : MonoBehaviour
         {
             SetObject();
         }
+
+        CheckCloseObj();
 
     }
 
@@ -88,11 +97,19 @@ public class GameManager : MonoBehaviour
 
     }
 
-    public void PlayerPickUpDetected(GameObject tempPickedUpObject)
+    public void PlayerPickUpDetected()
     {
-        Debug.Log("item picked up");
-        objectPickedUp = true;
-        pickedUpObject = tempPickedUpObject;
+        if(closeObj!=null)
+        {
+            objectPickedUp = true;
+            pickedUpObject = closeObj;
+            foreach (Collider c in closeObj.GetComponents<Collider>())
+            {
+                c.enabled = false;
+            }
+
+        }
+       
 
     }
 
@@ -101,8 +118,32 @@ public class GameManager : MonoBehaviour
         CreateAnchorPoint();
         pickedUpObject.transform.position = playerItemAnchorPoint;
         pickedUpObject.transform.rotation = Quaternion.LookRotation(pickedUpObject.transform.position - player.transform.position);
-        pickedUpObject.GetComponent<SphereCollider>().enabled = false;
         pickedUpObject.GetComponent<Rigidbody>().isKinematic = true;
+    }
+
+    public void TestDistance(GameObject newobj)
+    {
+        if(closeObj==null)
+        {
+            closeObj = newobj;
+        }
+        else
+        {
+            if(Vector3.Distance(newobj.transform.position,player.transform.position)
+                <Vector3.Distance(closeObj.transform.position,player.transform.position))
+            {
+                closeObj = newobj;
+            }
+        }
+
+    }
+
+    void CheckCloseObj()
+    {
+        if(Vector3.Distance(player.transform.position,closeObj.transform.position)>2f)
+        {
+            closeObj = null;
+        }
     }
 
 

@@ -23,8 +23,8 @@ public class TestPlayerMovement : MonoBehaviour
     void Update()
     {
         // allows the player to control their movement movement
-        PlayerMovement();
-        CloseToTransObj();
+        //PlayerMovement();
+       // CloseToTransObj();
     }
 
     void PlayerMovement()
@@ -38,14 +38,12 @@ public class TestPlayerMovement : MonoBehaviour
         transform.position = position;
     }
 
-    void CloseToTransObj()
+    public void CloseToTransObj()
     {
-        if (Input.GetButtonDown("ItemPickup"))
-        {
-          
-            gameController.GetComponent<GameManager>().pickedUpObject.GetComponent<MovableObjectData>().PickedUpObject();
-        }
+      gameController.GetComponent<GameManager>().pickedUpObject.GetComponent<MovableObjectData>().PickedUpObject();
     }
+
+    
 
 }
 

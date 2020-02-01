@@ -15,6 +15,9 @@ public class Player : MonoBehaviour
     private Vector3 inputDirection;
     private Vector3 movement;
 
+    [Header("Other")]
+    public GameManager gm;
+
 
     private InputMaster imaster;
     private Vector2 moveDir;
@@ -27,15 +30,20 @@ public class Player : MonoBehaviour
     private Animator m_Animator;
     float h;
     float v;
+    [HideInInspector]
+    public bool wantsToPickUp;
+    private List<GameObject> closeObjs;
 
 
     void Awake()
     {
         imaster = new InputMaster();
-       // imaster.Player.Movement.performed += ctx => moveDir=ctx.ReadValue<Vector2>();
-       // imaster.Player.Movement.performed += ctx => lookDir = ctx.ReadValue<Vector2>();
-       // imaster.Player.Movement.canceled += ctx => StopMovement();
+        // imaster.Player.Movement.performed += ctx => moveDir=ctx.ReadValue<Vector2>();
+        // imaster.Player.Movement.performed += ctx => lookDir = ctx.ReadValue<Vector2>();
+        // imaster.Player.Movement.canceled += ctx => StopMovement();
 
+
+        gm = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
         mainCamera.gameObject.transform.parent = null;
     }
 
@@ -141,5 +149,24 @@ public class Player : MonoBehaviour
         
         setTimer = 0.4f;
     }
+
+    void OnPickUp()
+    {
+        if(this.gameObject.CompareTag("Player2"))
+        {
+            if(!gm.objectPickedUp)
+            {
+                //Pick it up
+                gm.PlayerPickUpDetected();
+            }
+            else
+            {
+                //Drop
+                GetComponent<TestPlayerMovement>().CloseToTransObj();
+            }
+        }
+    }
+
+
 
 }

@@ -89,6 +89,7 @@ GameObject:
   - component: {fileID: 4081272437050092}
   - component: {fileID: 33346420056433412}
   - component: {fileID: 23402865905558132}
+  - component: {fileID: 2378710130057710004}
   m_Layer: 0
   m_Name: SM_Bld_House_ExteriorWall_GarageDoor_01
   m_TagString: Untagged
@@ -157,3 +158,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &2378710130057710004
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660965296716306}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 3.9427848, z: 2.0847669}
+  m_Center: {x: -2.5, y: 0.92860746, z: 0.95997787}
