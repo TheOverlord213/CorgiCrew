@@ -1,6 +1,132 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E95B7D2B-8764-45CA-879B-F77D302F5ADD}" SchemaVersion="94">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{E95B7D2B-8764-45CA-879B-F77D302F5ADD}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E95B7D2B-8764-45CA-879B-F77D302F5ADD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Main" ID="{7013C4A8-337D-4915-BBE8-1490139A3CD6}" ShortID="236883228">
+					<ChildrenList>
+						<Folder Name="Character" ID="{B47B70B3-007E-4A65-8853-7FBED3CCFA76}" ShortID="166863668">
+							<ChildrenList>
+								<Folder Name="Father" ID="{BC87BCD7-B10A-4366-893A-BCC0393CBA89}" ShortID="630668473">
+									<ChildrenList>
+										<Event Name="foot_player" ID="{10F7E725-FF0E-42AD-B6FF-67F11E532977}">
+											<ChildrenList>
+												<Action Name="" ID="{D26D45B8-62DD-4564-945C-9D9EE8525C6C}" ShortID="113359776">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="foot_player" ID="{DA33DCB2-3A78-4AA7-B14D-1EB37C0389D5}" WorkUnitID="{A61D37FD-7C7C-4F7B-BC7E-DDF600E42F01}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Dog" ID="{69F73E6D-F6C8-4776-8F01-A2063EB001E6}" ShortID="319583532">
+									<ChildrenList>
+										<Event Name="bark" ID="{FB13EB7B-442B-4BD5-968C-6A7CD443BD09}">
+											<ChildrenList>
+												<Action Name="" ID="{EAA69920-0F3D-4C5E-B5A0-D233D22EF958}" ShortID="366321008">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="dog_bark" ID="{D55EED59-145B-479B-8045-1DAC8058F43F}" WorkUnitID="{A61D37FD-7C7C-4F7B-BC7E-DDF600E42F01}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="dog_foot" ID="{DCD0952C-D55C-4BD3-A85C-4D6C23274C41}">
+											<ChildrenList>
+												<Action Name="" ID="{D64F13A3-DAF5-464F-8FCA-514493E34AE2}" ShortID="298057047">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="dog_foot" ID="{4E88F7E1-AF7C-43AF-84BB-BE00D83C842F}" WorkUnitID="{A61D37FD-7C7C-4F7B-BC7E-DDF600E42F01}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="growl_dog" ID="{0A44DB65-4475-4ACF-8BC5-81C548B7CB55}">
+											<ChildrenList>
+												<Action Name="" ID="{DEACD9DE-CAD6-46A3-B030-A682BBB71EA5}" ShortID="870184616">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="dog_growl" ID="{851DFB27-B77D-4D21-80EA-2B9FF75306F2}" WorkUnitID="{A61D37FD-7C7C-4F7B-BC7E-DDF600E42F01}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Music" ID="{50CE6452-E44F-46A9-9032-73ED86BA99FD}" ShortID="118295464">
+									<ChildrenList>
+										<Event Name="level_music" ID="{0DC40BC8-414A-46D0-9710-916E9CF78B06}">
+											<ChildrenList>
+												<Action Name="" ID="{7C8D8A6A-8BF7-4B61-8CE2-AC411A634455}" ShortID="50246490">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="level_music" ID="{EB77F08A-FBE8-45F9-9C29-4241E6E76900}" WorkUnitID="{A61D37FD-7C7C-4F7B-BC7E-DDF600E42F01}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Environment" ID="{6843FF8B-99CF-447D-B53E-4EC8CF3E8810}" ShortID="197479145">
+									<ChildrenList>
+										<Event Name="fabric_tear" ID="{3EE8A3A5-D1C4-417F-A137-79F0606D739C}">
+											<ChildrenList>
+												<Action Name="" ID="{CA222CBE-4843-41BA-946D-09CFD5CE8C5F}" ShortID="62951344">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="fabric_tear" ID="{8E4C85FE-5798-4A6A-9B51-EBD17C03E868}" WorkUnitID="{A61D37FD-7C7C-4F7B-BC7E-DDF600E42F01}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="tubs_fall" ID="{35D03B3B-C6CE-4E55-A4A2-68989474BC4C}">
+											<ChildrenList>
+												<Action Name="" ID="{E13732D5-0EF4-4000-AEE2-9BA7609F6B40}" ShortID="444455986">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="tubs_fall" ID="{CE14433C-71DD-4679-B4E8-0124DDBDE4B9}" WorkUnitID="{A61D37FD-7C7C-4F7B-BC7E-DDF600E42F01}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="metal_fall" ID="{730724DA-C73F-4669-9627-1269265E7DE7}">
+											<ChildrenList>
+												<Action Name="" ID="{2D637F14-6C1C-4492-8194-B85A7F7CCA24}" ShortID="755283609">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="metal_fall" ID="{B3F2399B-34CA-41FA-813B-C48C1D7D05B6}" WorkUnitID="{A61D37FD-7C7C-4F7B-BC7E-DDF600E42F01}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="metal2_fall" ID="{0262D7C5-F0E3-4CEF-9D85-5BFDC5819BB4}">
+											<ChildrenList>
+												<Action Name="" ID="{A770447B-EB3C-4AEE-9D3D-880240F15678}" ShortID="918645007">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="metal2_fall" ID="{338C9B3F-FFD4-4103-8346-EB2F9DD1B213}" WorkUnitID="{A61D37FD-7C7C-4F7B-BC7E-DDF600E42F01}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

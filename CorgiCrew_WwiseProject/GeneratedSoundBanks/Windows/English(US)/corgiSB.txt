@@ -1,0 +1,101 @@
+Event	ID	Name			Wwise Object Path	Notes
+	698346356	dog_foot			\Default Work Unit\Main\Character\Dog\dog_foot	
+	1055264203	growl_dog			\Default Work Unit\Main\Character\Dog\growl_dog	
+	1244594577	level_music			\Default Work Unit\Main\Character\Music\level_music	
+	1270178218	metal_fall			\Default Work Unit\Main\Character\Environment\metal_fall	
+	1274655755	bark			\Default Work Unit\Main\Character\Dog\bark	
+	1784312585	fabric_tear			\Default Work Unit\Main\Character\Environment\fabric_tear	
+	1894362767	foot_player			\Default Work Unit\Main\Character\Father\foot_player	
+	2564875616	metal2_fall			\Default Work Unit\Main\Character\Environment\metal2_fall	
+	2914442879	tubs_fall			\Default Work Unit\Main\Character\Environment\tubs_fall	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3031504797	foot			\Default Work Unit\foot	
+
+Switch	ID	Name	Switch Group			Notes
+	841620460	concrete	foot			
+	2058049674	wood	foot			
+	2412606308	carpet	foot			
+	2637588553	tile	foot			
+	2654748154	water	foot			
+	4248645337	grass	foot			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	4174969	PlayerFootstep_wood_toe_06	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_wood_toe_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\wood\wood_toe\PlayerFootstep_wood_toe_06		46244
+	24336779	PlayerFootstep_water_heel_03	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_water_heel_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\water\water_heel\PlayerFootstep_water_heel_03		26996
+	31572135	PlayerFootstep_wood_heel_04	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_wood_heel_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\wood\wood_heel\PlayerFootstep_wood_heel_04		46244
+	40504956	growl5	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\growl5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Dog\dog_growl\growl5		209540
+	51947667	growl3	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\growl3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Dog\dog_growl\growl3		352864
+	71663510	PlayerFootstep_water_heel_01	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_water_heel_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\water\water_heel\PlayerFootstep_water_heel_01		23220
+	76186846	PlayerFootstep_concrete_toe_05	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_concrete_toe_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\concrete\concrete_toe\PlayerFootstep_concrete_toe_05		48064
+	86964616	PlayerFootstep_wood_heel_06	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_wood_heel_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\wood\wood_heel\PlayerFootstep_wood_heel_06		48064
+	87955973	PlayerFootstep_concrete_toe_04	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_concrete_toe_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\concrete\concrete_toe\PlayerFootstep_concrete_toe_04		48064
+	89092941	PlayerFootstep_metal_heel_06	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_metal_heel_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\tile\tile_heel\PlayerFootstep_metal_heel_06		38156
+	97263263	PlayerFootstep_wood_heel_02	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_wood_heel_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\wood\wood_heel\PlayerFootstep_wood_heel_02		48064
+	100299502	PlayerFootstep_wood_heel_05	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_wood_heel_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\wood\wood_heel\PlayerFootstep_wood_heel_05		48064
+	102230094	PlayerFootstep_concrete_toe_01	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_concrete_toe_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\concrete\concrete_toe\PlayerFootstep_concrete_toe_01		48064
+	103597650	PlayerFootstep_grass_heel_06	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_grass_heel_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\grass\grass_heel\PlayerFootstep_grass_heel_06		63816
+	105560078	PlayerFootstep_water_toe_03	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_water_toe_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\water\water_toe\PlayerFootstep_water_toe_03		95380
+	110904056	PlayerFootstep_metal_heel_04	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_metal_heel_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\tile\tile_heel\PlayerFootstep_metal_heel_04		46188
+	118127914	PlayerFootstep_concrete_heel_01	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_concrete_heel_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\concrete\concrete_heel\PlayerFootstep_concrete_heel_01		48064
+	127727796	PlayerFootstep_water_toe_02	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_water_toe_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\water\water_toe\PlayerFootstep_water_toe_02		72528
+	132188899	PlayerFootstep_metal_toe_04	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_metal_toe_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\tile\tile_toe\PlayerFootstep_metal_toe_04		44320
+	133602458	PlayerFootstep_grass_toe_06	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_grass_toe_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\grass\grass_toe\PlayerFootstep_grass_toe_06		24064
+	143431160	PlayerFootstep_metal_toe_05	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_metal_toe_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\tile\tile_toe\PlayerFootstep_metal_toe_05		46748
+	161485647	PlayerFootstep_grass_heel_03	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_grass_heel_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\grass\grass_heel\PlayerFootstep_grass_heel_03		48064
+	167426834	metal2_fall	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\falling_pots1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Environment\metal2_fall		577376
+	204063910	PlayerFootstep_wood_heel_03	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_wood_heel_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\wood\wood_heel\PlayerFootstep_wood_heel_03		40644
+	211336371	PlayerFootstep_water_heel_05	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_water_heel_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\water\water_heel\PlayerFootstep_water_heel_05		31736
+	225039184	tubs_fall	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\Voices\English(US)\falling_tubs1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Environment\tubs_fall		481156
+	240998946	growl1	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\growl1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Dog\dog_growl\growl1		242616
+	250372508	PlayerFootstep_water_heel_06	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_water_heel_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\water\water_heel\PlayerFootstep_water_heel_06		45420
+	255471825	bark3	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\bark3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Dog\dog_bark\bark3		88264
+	264833941	PlayerFootstep_grass_toe_04	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_grass_toe_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\grass\grass_toe\PlayerFootstep_grass_toe_04		24064
+	287996971	rip2	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\rip2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Environment\fabric_tear\rip2		88264
+	290017404	rip3	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\rip3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Environment\fabric_tear\rip3		88264
+	300553770	growl2	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\growl2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Dog\dog_growl\growl2		396964
+	314971310	bark2	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\bark2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Dog\dog_bark\bark2		88264
+	375506429	PlayerFootstep_grass_toe_03	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_grass_toe_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\grass\grass_toe\PlayerFootstep_grass_toe_03		24064
+	422971738	PlayerFootstep_metal_heel_02	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_metal_heel_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\tile\tile_heel\PlayerFootstep_metal_heel_02		44880
+	428997958	PlayerFootstep_concrete_heel_04	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_concrete_heel_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\concrete\concrete_heel\PlayerFootstep_concrete_heel_04		48064
+	446810509	PlayerFootstep_wood_toe_03	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_wood_toe_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\wood\wood_toe\PlayerFootstep_wood_toe_03		47180
+	448148214	PlayerFootstep_metal_heel_03	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_metal_heel_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\tile\tile_heel\PlayerFootstep_metal_heel_03		45252
+	498422236	PlayerFootstep_water_heel_02	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_water_heel_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\water\water_heel\PlayerFootstep_water_heel_02		24712
+	512267808	metal_fall	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\falling_pots2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Environment\metal_fall		439920
+	524799861	PlayerFootstep_concrete_heel_06	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_concrete_heel_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\concrete\concrete_heel\PlayerFootstep_concrete_heel_06		48064
+	548850558	PlayerFootstep_metal_heel_05	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_metal_heel_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\tile\tile_heel\PlayerFootstep_metal_heel_05		40772
+	557289467	PlayerFootstep_grass_toe_02	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_grass_toe_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\grass\grass_toe\PlayerFootstep_grass_toe_02		24064
+	587546682	PlayerFootstep_concrete_toe_03	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_concrete_toe_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\concrete\concrete_toe\PlayerFootstep_concrete_toe_03		48064
+	628560027	PlayerFootstep_grass_toe_01	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_grass_toe_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\grass\grass_toe\PlayerFootstep_grass_toe_01		23968
+	642116737	PlayerFootstep_grass_heel_02	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_grass_heel_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\grass\grass_heel\PlayerFootstep_grass_heel_02		102560
+	642276191	PlayerFootstep_metal_toe_01	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_metal_toe_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\tile\tile_toe\PlayerFootstep_metal_toe_01		37224
+	650420055	PlayerFootstep_wood_heel_01	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_wood_heel_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\wood\wood_heel\PlayerFootstep_wood_heel_01		48064
+	669347300	PlayerFootstep_concrete_toe_06	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_concrete_toe_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\concrete\concrete_toe\PlayerFootstep_concrete_toe_06		48064
+	671041515	PlayerFootstep_wood_toe_04	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_wood_toe_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\wood\wood_toe\PlayerFootstep_wood_toe_04		48064
+	692834119	PlayerFootstep_metal_toe_03	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_metal_toe_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\tile\tile_toe\PlayerFootstep_metal_toe_03		44132
+	693686008	PlayerFootstep_grass_toe_05	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_grass_toe_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\grass\grass_toe\PlayerFootstep_grass_toe_05		24064
+	707602532	PlayerFootstep_grass_heel_04	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_grass_heel_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\grass\grass_heel\PlayerFootstep_grass_heel_04		48064
+	709211751	PlayerFootstep_water_toe_01	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_water_toe_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\water\water_toe\PlayerFootstep_water_toe_01		57468
+	720431889	bark5	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\bark5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Dog\dog_bark\bark5		137880
+	738928641	PlayerFootstep_water_toe_05	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_water_toe_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\water\water_toe\PlayerFootstep_water_toe_05		106364
+	751090474	PlayerFootstep_concrete_toe_02	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_concrete_toe_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\concrete\concrete_toe\PlayerFootstep_concrete_toe_02		48064
+	752633926	rip1	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\rip1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Environment\fabric_tear\rip1		88264
+	757116151	bark1	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\bark1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Dog\dog_bark\bark1		88264
+	778755964	level_music	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\level_music_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Music\level_music		35548508
+	826706057	growl4	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\growl4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Dog\dog_growl\growl4		264664
+	834429097	PlayerFootstep_wood_toe_02	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_wood_toe_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\wood\wood_toe\PlayerFootstep_wood_toe_02		48064
+	866647338	PlayerFootstep_grass_heel_05	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_grass_heel_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\grass\grass_heel\PlayerFootstep_grass_heel_05		48064
+	876723637	PlayerFootstep_concrete_heel_05	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_concrete_heel_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\concrete\concrete_heel\PlayerFootstep_concrete_heel_05		48064
+	896163121	PlayerFootstep_grass_heel_01	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_grass_heel_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\grass\grass_heel\PlayerFootstep_grass_heel_01		104060
+	900809104	PlayerFootstep_metal_toe_02	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_metal_toe_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\tile\tile_toe\PlayerFootstep_metal_toe_02		45812
+	919913607	bark4	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\bark4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Dog\dog_bark\bark4		88264
+	939356410	PlayerFootstep_water_toe_04	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_water_toe_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\water\water_toe\PlayerFootstep_water_toe_04		77664
+	953834084	PlayerFootstep_water_heel_04	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_water_heel_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\water\water_heel\PlayerFootstep_water_heel_04		32664
+	955276262	PlayerFootstep_wood_toe_05	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_wood_toe_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\wood\wood_toe\PlayerFootstep_wood_toe_05		48064
+	969087043	PlayerFootstep_metal_toe_06	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_metal_toe_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\tile\tile_toe\PlayerFootstep_metal_toe_06		24152
+	973446745	PlayerFootstep_concrete_heel_03	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_concrete_heel_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\concrete\concrete_heel\PlayerFootstep_concrete_heel_03		48064
+	993919616	PlayerFootstep_concrete_heel_02	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_concrete_heel_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\concrete\concrete_heel\PlayerFootstep_concrete_heel_02		48064
+	1028401320	PlayerFootstep_wood_toe_01	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_wood_toe_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\wood\wood_toe\PlayerFootstep_wood_toe_01		48064
+	1046668701	PlayerFootstep_water_toe_06	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_water_toe_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\water\water_toe\PlayerFootstep_water_toe_06		109068
+	1068555009	PlayerFootstep_metal_heel_01	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_metal_heel_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\tile\tile_heel\PlayerFootstep_metal_heel_01		46560
+
