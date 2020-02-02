@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 772af9e2424998e4e801e8e0be3ba066, type: 3}
+  m_Name: DCD0952C-D55C-4BD3-A85C-4D6C23274C41
+  m_EditorClassIdentifier: 
+  objectName: dog_foot
+  id: 698346356
+  guid: DCD0952C-D55C-4BD3-A85C-4D6C23274C41

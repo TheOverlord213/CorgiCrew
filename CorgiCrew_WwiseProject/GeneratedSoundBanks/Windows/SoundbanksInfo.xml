@@ -22,7 +22,7 @@
 			<Path>English(US)\corgiSB.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1274655755" Name="bark" ObjectPath="\Events\Default Work Unit\Main\Character\Dog\bark" DurationType="OneShot" DurationMin="0.438556" DurationMax="0.890730"/>
-				<Event Id="698346356" Name="dog_foot" ObjectPath="\Events\Default Work Unit\Main\Character\Dog\dog_foot" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="698346356" Name="dog_foot" ObjectPath="\Events\Default Work Unit\Main\Character\Dog\dog_foot" DurationType="OneShot" DurationMin="0.138505" DurationMax="0.175138"/>
 				<Event Id="1784312585" Name="fabric_tear" ObjectPath="\Events\Default Work Unit\Main\Character\Environment\fabric_tear" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000"/>
 				<Event Id="1894362767" Name="foot_player" ObjectPath="\Events\Default Work Unit\Main\Character\Father\foot_player" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.607729"/>
 				<Event Id="1055264203" Name="growl_dog" ObjectPath="\Events\Default Work Unit\Main\Character\Dog\growl_dog" DurationType="OneShot" DurationMin="1.056726" DurationMax="2.528459"/>
@@ -188,6 +188,10 @@
 					<ShortName>PlayerFootstep_metal_heel_03.wav</ShortName>
 					<Path>SFX\PlayerFootstep_metal_heel_03_10C4C929.wem</Path>
 				</File>
+				<File Id="452970888" Language="SFX">
+					<ShortName>claw_floor4.wav</ShortName>
+					<Path>SFX\claw_floor4_10C4C929.wem</Path>
+				</File>
 				<File Id="498422236" Language="SFX">
 					<ShortName>PlayerFootstep_water_heel_02.wav</ShortName>
 					<Path>SFX\PlayerFootstep_water_heel_02_10C4C929.wem</Path>
@@ -199,6 +203,10 @@
 				<File Id="524799861" Language="SFX">
 					<ShortName>PlayerFootstep_concrete_heel_06.wav</ShortName>
 					<Path>SFX\PlayerFootstep_concrete_heel_06_10C4C929.wem</Path>
+				</File>
+				<File Id="531600232" Language="SFX">
+					<ShortName>claw_floor5.wav</ShortName>
+					<Path>SFX\claw_floor5_10C4C929.wem</Path>
 				</File>
 				<File Id="548850558" Language="SFX">
 					<ShortName>PlayerFootstep_metal_heel_05.wav</ShortName>
@@ -244,6 +252,10 @@
 					<ShortName>PlayerFootstep_grass_toe_05.wav</ShortName>
 					<Path>SFX\PlayerFootstep_grass_toe_05_10C4C929.wem</Path>
 				</File>
+				<File Id="696162535" Language="SFX">
+					<ShortName>claw_floor1.wav</ShortName>
+					<Path>SFX\claw_floor1_10C4C929.wem</Path>
+				</File>
 				<File Id="707602532" Language="SFX">
 					<ShortName>PlayerFootstep_grass_heel_04.wav</ShortName>
 					<Path>SFX\PlayerFootstep_grass_heel_04_10C4C929.wem</Path>
@@ -255,6 +267,10 @@
 				<File Id="720431889" Language="SFX">
 					<ShortName>bark5.wav</ShortName>
 					<Path>SFX\bark5_10C4C929.wem</Path>
+				</File>
+				<File Id="738670553" Language="SFX">
+					<ShortName>claw_floor2.wav</ShortName>
+					<Path>SFX\claw_floor2_10C4C929.wem</Path>
 				</File>
 				<File Id="738928641" Language="SFX">
 					<ShortName>PlayerFootstep_water_toe_05.wav</ShortName>
@@ -327,6 +343,14 @@
 				<File Id="993919616" Language="SFX">
 					<ShortName>PlayerFootstep_concrete_heel_02.wav</ShortName>
 					<Path>SFX\PlayerFootstep_concrete_heel_02_10C4C929.wem</Path>
+				</File>
+				<File Id="997840750" Language="SFX">
+					<ShortName>claw_floor6.wav</ShortName>
+					<Path>SFX\claw_floor6_10C4C929.wem</Path>
+				</File>
+				<File Id="1007978950" Language="SFX">
+					<ShortName>claw_floor3.wav</ShortName>
+					<Path>SFX\claw_floor3_10C4C929.wem</Path>
 				</File>
 				<File Id="1028401320" Language="SFX">
 					<ShortName>PlayerFootstep_wood_toe_01.wav</ShortName>

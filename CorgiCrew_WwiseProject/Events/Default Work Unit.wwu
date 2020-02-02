@@ -37,10 +37,10 @@
 										</Event>
 										<Event Name="dog_foot" ID="{DCD0952C-D55C-4BD3-A85C-4D6C23274C41}">
 											<ChildrenList>
-												<Action Name="" ID="{D64F13A3-DAF5-464F-8FCA-514493E34AE2}" ShortID="298057047">
+												<Action Name="" ID="{015449EA-ED00-4B3E-9175-B1ED0664F8F6}" ShortID="463118279">
 													<ReferenceList>
 														<Reference Name="Target">
-															<ObjectRef Name="dog_foot" ID="{4E88F7E1-AF7C-43AF-84BB-BE00D83C842F}" WorkUnitID="{A61D37FD-7C7C-4F7B-BC7E-DDF600E42F01}"/>
+															<ObjectRef Name="dog_foot" ID="{DCE65E85-55C9-497F-8EA6-4BC69FC80EFD}" WorkUnitID="{A61D37FD-7C7C-4F7B-BC7E-DDF600E42F01}"/>
 														</Reference>
 													</ReferenceList>
 												</Action>

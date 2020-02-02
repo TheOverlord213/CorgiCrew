@@ -7,185 +7,6 @@
 					<ChildrenList>
 						<Folder Name="Dog" ID="{4E70E215-4C43-4440-9DCD-847CC58AB44C}" ShortID="1011335764">
 							<ChildrenList>
-								<SwitchContainer Name="dog_foot" ID="{4E88F7E1-AF7C-43AF-84BB-BE00D83C842F}" ShortID="893898611">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{5876F17A-5972-441B-B7FE-9AD3F20734F9}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="253"/>
-															<Property Name="Min" Type="Real64" Value="-202"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87E7AA35-752C-441D-B9AB-EDD8888230B9}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B842F8C5-744F-478F-AD5A-B68344C7106A}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<RandomSequenceContainer Name="dog_foot" ID="{DCE65E85-55C9-497F-8EA6-4BC69FC80EFD}" ShortID="1042359693">
-											<PropertyList>
-												<Property Name="Pitch" Type="int32">
-													<ModifierList>
-														<ModifierInfo>
-															<Modifier Name="" ID="{AF46884F-3957-4E5A-B8DA-CB01E00B5C69}">
-																<PropertyList>
-																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="202"/>
-																	<Property Name="Min" Type="Real64" Value="-202"/>
-																</PropertyList>
-															</Modifier>
-														</ModifierInfo>
-													</ModifierList>
-												</Property>
-												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.04"/>
-												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87E7AA35-752C-441D-B9AB-EDD8888230B9}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B842F8C5-744F-478F-AD5A-B68344C7106A}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="claw_floor2" ID="{2BCF4F09-6287-4D1C-A8A7-15C7CFBA720B}" ShortID="470923000">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87E7AA35-752C-441D-B9AB-EDD8888230B9}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B842F8C5-744F-478F-AD5A-B68344C7106A}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="claw_floor2" ID="{E032C670-4783-4FFA-97A5-36D6541A029A}" ShortID="738670553">
-															<Language>SFX</Language>
-															<AudioFile>claw_floor2.wav</AudioFile>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="claw_floor2" ID="{E032C670-4783-4FFA-97A5-36D6541A029A}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="claw_floor3" ID="{7B9F4EE0-6C80-45ED-AB42-190B6F107BE5}" ShortID="448405550">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87E7AA35-752C-441D-B9AB-EDD8888230B9}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B842F8C5-744F-478F-AD5A-B68344C7106A}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="claw_floor3" ID="{66767E82-37CE-4F26-8750-5044DBAAE34D}" ShortID="1007978950">
-															<Language>SFX</Language>
-															<AudioFile>claw_floor3.wav</AudioFile>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="claw_floor3" ID="{66767E82-37CE-4F26-8750-5044DBAAE34D}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="claw_floor4" ID="{4F3795B6-1E03-4E1E-84FA-C91462961A89}" ShortID="322920084">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87E7AA35-752C-441D-B9AB-EDD8888230B9}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B842F8C5-744F-478F-AD5A-B68344C7106A}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="claw_floor4" ID="{7CD50D34-57EB-41AE-A8C3-6D1F6F8892AD}" ShortID="452970888">
-															<Language>SFX</Language>
-															<AudioFile>claw_floor4.wav</AudioFile>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="claw_floor4" ID="{7CD50D34-57EB-41AE-A8C3-6D1F6F8892AD}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="claw_floor5" ID="{A00C376B-8107-489C-B601-C7AAA2C74DC6}" ShortID="454050265">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87E7AA35-752C-441D-B9AB-EDD8888230B9}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B842F8C5-744F-478F-AD5A-B68344C7106A}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="claw_floor5" ID="{B5B547D0-D24F-4BBE-91E1-E0E4D38ADC5B}" ShortID="531600232">
-															<Language>SFX</Language>
-															<AudioFile>claw_floor5.wav</AudioFile>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="claw_floor5" ID="{B5B547D0-D24F-4BBE-91E1-E0E4D38ADC5B}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="claw_floor6" ID="{873D5B96-81E7-4FC2-BD5E-605509E9387D}" ShortID="1055102476">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87E7AA35-752C-441D-B9AB-EDD8888230B9}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B842F8C5-744F-478F-AD5A-B68344C7106A}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="claw_floor6" ID="{A4454719-9413-493B-AF23-9F9D964CAAD8}" ShortID="997840750">
-															<Language>SFX</Language>
-															<AudioFile>claw_floor6.wav</AudioFile>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="claw_floor6" ID="{A4454719-9413-493B-AF23-9F9D964CAAD8}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="claw_floor1" ID="{435BA94F-C197-44AB-8E81-25FC638EE511}" ShortID="405633182">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87E7AA35-752C-441D-B9AB-EDD8888230B9}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B842F8C5-744F-478F-AD5A-B68344C7106A}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="claw_floor1" ID="{B35F26CF-BC0A-4B2B-BD20-96886B77C516}" ShortID="696162535">
-															<Language>SFX</Language>
-															<AudioFile>claw_floor1.wav</AudioFile>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="claw_floor1" ID="{B35F26CF-BC0A-4B2B-BD20-96886B77C516}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
-									</ChildrenList>
-									<GroupingInfo>
-										<GroupingBehaviorList>
-											<GroupingBehavior>
-												<ItemRef Name="dog_foot" ID="{DCE65E85-55C9-497F-8EA6-4BC69FC80EFD}"/>
-											</GroupingBehavior>
-										</GroupingBehaviorList>
-									</GroupingInfo>
-								</SwitchContainer>
 								<RandomSequenceContainer Name="dog_bark" ID="{D55EED59-145B-479B-8045-1DAC8058F43F}" ShortID="884902639">
 									<PropertyList>
 										<Property Name="Pitch" Type="int32">
@@ -426,6 +247,149 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="growl1" ID="{2A139CED-8FDE-427F-B7F5-2BED2C21061B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="dog_foot" ID="{DCE65E85-55C9-497F-8EA6-4BC69FC80EFD}" ShortID="1042359693">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{AF46884F-3957-4E5A-B8DA-CB01E00B5C69}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="202"/>
+															<Property Name="Min" Type="Real64" Value="-202"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.04"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87E7AA35-752C-441D-B9AB-EDD8888230B9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B842F8C5-744F-478F-AD5A-B68344C7106A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="claw_floor2" ID="{2BCF4F09-6287-4D1C-A8A7-15C7CFBA720B}" ShortID="470923000">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87E7AA35-752C-441D-B9AB-EDD8888230B9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B842F8C5-744F-478F-AD5A-B68344C7106A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="claw_floor2" ID="{E032C670-4783-4FFA-97A5-36D6541A029A}" ShortID="738670553">
+													<Language>SFX</Language>
+													<AudioFile>claw_floor2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="claw_floor2" ID="{E032C670-4783-4FFA-97A5-36D6541A029A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="claw_floor3" ID="{7B9F4EE0-6C80-45ED-AB42-190B6F107BE5}" ShortID="448405550">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87E7AA35-752C-441D-B9AB-EDD8888230B9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B842F8C5-744F-478F-AD5A-B68344C7106A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="claw_floor3" ID="{66767E82-37CE-4F26-8750-5044DBAAE34D}" ShortID="1007978950">
+													<Language>SFX</Language>
+													<AudioFile>claw_floor3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="claw_floor3" ID="{66767E82-37CE-4F26-8750-5044DBAAE34D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="claw_floor4" ID="{4F3795B6-1E03-4E1E-84FA-C91462961A89}" ShortID="322920084">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87E7AA35-752C-441D-B9AB-EDD8888230B9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B842F8C5-744F-478F-AD5A-B68344C7106A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="claw_floor4" ID="{7CD50D34-57EB-41AE-A8C3-6D1F6F8892AD}" ShortID="452970888">
+													<Language>SFX</Language>
+													<AudioFile>claw_floor4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="claw_floor4" ID="{7CD50D34-57EB-41AE-A8C3-6D1F6F8892AD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="claw_floor5" ID="{A00C376B-8107-489C-B601-C7AAA2C74DC6}" ShortID="454050265">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87E7AA35-752C-441D-B9AB-EDD8888230B9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B842F8C5-744F-478F-AD5A-B68344C7106A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="claw_floor5" ID="{B5B547D0-D24F-4BBE-91E1-E0E4D38ADC5B}" ShortID="531600232">
+													<Language>SFX</Language>
+													<AudioFile>claw_floor5.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="claw_floor5" ID="{B5B547D0-D24F-4BBE-91E1-E0E4D38ADC5B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="claw_floor6" ID="{873D5B96-81E7-4FC2-BD5E-605509E9387D}" ShortID="1055102476">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87E7AA35-752C-441D-B9AB-EDD8888230B9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B842F8C5-744F-478F-AD5A-B68344C7106A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="claw_floor6" ID="{A4454719-9413-493B-AF23-9F9D964CAAD8}" ShortID="997840750">
+													<Language>SFX</Language>
+													<AudioFile>claw_floor6.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="claw_floor6" ID="{A4454719-9413-493B-AF23-9F9D964CAAD8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="claw_floor1" ID="{435BA94F-C197-44AB-8E81-25FC638EE511}" ShortID="405633182">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87E7AA35-752C-441D-B9AB-EDD8888230B9}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B842F8C5-744F-478F-AD5A-B68344C7106A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="claw_floor1" ID="{B35F26CF-BC0A-4B2B-BD20-96886B77C516}" ShortID="696162535">
+													<Language>SFX</Language>
+													<AudioFile>claw_floor1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="claw_floor1" ID="{B35F26CF-BC0A-4B2B-BD20-96886B77C516}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
