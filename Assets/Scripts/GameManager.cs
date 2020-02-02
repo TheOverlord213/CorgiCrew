@@ -139,6 +139,16 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void DropObject()
+    {
+        objectPickedUp = false;
+        foreach (Collider c in closeObj.GetComponents<Collider>())
+        {
+            c.enabled = true;
+        }
+        pickedUpObject.GetComponent<Rigidbody>().isKinematic = false;
+    }
+
     private void SetObject()
     {
         CreateAnchorPoint();

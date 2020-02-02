@@ -175,6 +175,11 @@ public class Player : MonoBehaviour
         }
     }
 
+    void OnDrop()
+    {
+        gm.DropObject();
+    }
+
     void OnEscape()
     {
         Debug.Log("Escaped");

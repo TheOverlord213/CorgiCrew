@@ -57,6 +57,14 @@ public class @InputMaster : IInputActionCollection, IDisposable
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Drop"",
+                    ""type"": ""Button"",
+                    ""id"": ""ed1036e5-5106-489d-b69f-5c16aef18428"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -125,6 +133,17 @@ public class @InputMaster : IInputActionCollection, IDisposable
                     ""action"": ""Bark"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f15fbcb6-be14-4037-a652-284bb704ff1f"",
+                    ""path"": ""<XInputController>/buttonEast"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Controller"",
+                    ""action"": ""Drop"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -166,6 +185,7 @@ public class @InputMaster : IInputActionCollection, IDisposable
         m_Player_PickUp = m_Player.FindAction("PickUp", throwIfNotFound: true);
         m_Player_Escape = m_Player.FindAction("Escape", throwIfNotFound: true);
         m_Player_Bark = m_Player.FindAction("Bark", throwIfNotFound: true);
+        m_Player_Drop = m_Player.FindAction("Drop", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -220,6 +240,7 @@ public class @InputMaster : IInputActionCollection, IDisposable
     private readonly InputAction m_Player_PickUp;
     private readonly InputAction m_Player_Escape;
     private readonly InputAction m_Player_Bark;
+    private readonly InputAction m_Player_Drop;
     public struct PlayerActions
     {
         private @InputMaster m_Wrapper;
@@ -229,6 +250,7 @@ public class @InputMaster : IInputActionCollection, IDisposable
         public InputAction @PickUp => m_Wrapper.m_Player_PickUp;
         public InputAction @Escape => m_Wrapper.m_Player_Escape;
         public InputAction @Bark => m_Wrapper.m_Player_Bark;
+        public InputAction @Drop => m_Wrapper.m_Player_Drop;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -253,6 +275,9 @@ public class @InputMaster : IInputActionCollection, IDisposable
                 @Bark.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnBark;
                 @Bark.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnBark;
                 @Bark.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnBark;
+                @Drop.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDrop;
+                @Drop.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDrop;
+                @Drop.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnDrop;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -272,6 +297,9 @@ public class @InputMaster : IInputActionCollection, IDisposable
                 @Bark.started += instance.OnBark;
                 @Bark.performed += instance.OnBark;
                 @Bark.canceled += instance.OnBark;
+                @Drop.started += instance.OnDrop;
+                @Drop.performed += instance.OnDrop;
+                @Drop.canceled += instance.OnDrop;
             }
         }
     }
@@ -301,5 +329,6 @@ public class @InputMaster : IInputActionCollection, IDisposable
         void OnPickUp(InputAction.CallbackContext context);
         void OnEscape(InputAction.CallbackContext context);
         void OnBark(InputAction.CallbackContext context);
+        void OnDrop(InputAction.CallbackContext context);
     }
 }
