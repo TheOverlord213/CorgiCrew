@@ -76,6 +76,7 @@ public class MovableObjectData : MonoBehaviour
                 ObjectSpawned = true;
                 SpawnObjectClone();
             }
+            gameController.GetComponent<GameManager>().SliderValueChange(true);
         }
     }
 
@@ -104,7 +105,9 @@ public class MovableObjectData : MonoBehaviour
     }
 
     void ResetPos()
-    {  
+    {
+        gameController.GetComponent<GameManager>().SliderValueChange(false);
+
         this.transform.position = originPosition;
         this.transform.rotation = originRotation;
         Destroy(instantiatedObject);

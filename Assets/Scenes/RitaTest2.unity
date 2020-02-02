@@ -3175,9 +3175,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectPickedUp: 0
+  timerText: {fileID: 0}
+  corgiWins: {fileID: 0}
+  ownerWins: {fileID: 0}
+  draw: {fileID: 0}
   transMat: {fileID: 2100000, guid: b623a2a50daa5604d8dcdf5c47e5cd36, type: 2}
   pickedUpObject: {fileID: 0}
   closeObj: {fileID: 0}
+  progressSlider: {fileID: 0}
 --- !u!4 &349786386
 Transform:
   m_ObjectHideFlags: 0
@@ -14488,6 +14493,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23342620904136012, guid: 2cbdb7aa28ac8494484bc599cc1df917,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b623a2a50daa5604d8dcdf5c47e5cd36, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cbdb7aa28ac8494484bc599cc1df917, type: 3}
 --- !u!1001 &1621155407

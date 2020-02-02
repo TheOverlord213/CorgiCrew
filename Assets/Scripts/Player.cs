@@ -167,6 +167,19 @@ public class Player : MonoBehaviour
         }
     }
 
+    void OnEscape()
+    {
+        Debug.Log("Escaped");
+        Application.Quit();
+    }
 
+    void OnBark()
+    {
+        if(gameObject.CompareTag("Player1"))
+        {
+            m_Animator.SetTrigger("Bark");
+        }
+        
+    }
 
 }
