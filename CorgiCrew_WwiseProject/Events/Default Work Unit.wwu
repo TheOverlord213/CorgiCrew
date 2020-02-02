@@ -124,6 +124,17 @@
 								</Folder>
 							</ChildrenList>
 						</Folder>
+						<Event Name="Bite" ID="{53D0BBC0-E8DC-481C-A301-B56DE824CEE0}">
+							<ChildrenList>
+								<Action Name="" ID="{C7D2973E-459D-4947-8AFC-18849D594974}" ShortID="882390221">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bite" ID="{6F328DE7-EC8C-4ED1-B802-4C425F93B0C2}" WorkUnitID="{A61D37FD-7C7C-4F7B-BC7E-DDF600E42F01}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

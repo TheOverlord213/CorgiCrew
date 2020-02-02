@@ -22,6 +22,7 @@
 			<Path>English(US)\corgiSB.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1274655755" Name="bark" ObjectPath="\Events\Default Work Unit\Main\Character\Dog\bark" DurationType="OneShot" DurationMin="0.438556" DurationMax="0.890730"/>
+				<Event Id="1645043423" Name="Bite" ObjectPath="\Events\Default Work Unit\Main\Bite" DurationType="OneShot" DurationMin="0.437506" DurationMax="0.437506"/>
 				<Event Id="698346356" Name="dog_foot" ObjectPath="\Events\Default Work Unit\Main\Character\Dog\dog_foot" DurationType="OneShot" DurationMin="0.138505" DurationMax="0.175138"/>
 				<Event Id="1784312585" Name="fabric_tear" ObjectPath="\Events\Default Work Unit\Main\Character\Environment\fabric_tear" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000"/>
 				<Event Id="1894362767" Name="foot_player" ObjectPath="\Events\Default Work Unit\Main\Character\Father\foot_player" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.607729"/>
@@ -323,6 +324,10 @@
 				<File Id="939356410" Language="SFX">
 					<ShortName>PlayerFootstep_water_toe_04.wav</ShortName>
 					<Path>SFX\PlayerFootstep_water_toe_04_10C4C929.wem</Path>
+				</File>
+				<File Id="943976074" Language="SFX">
+					<ShortName>angler_chomp.wav</ShortName>
+					<Path>SFX\angler_chomp_10C4C929.wem</Path>
 				</File>
 				<File Id="953834084" Language="SFX">
 					<ShortName>PlayerFootstep_water_heel_04.wav</ShortName>

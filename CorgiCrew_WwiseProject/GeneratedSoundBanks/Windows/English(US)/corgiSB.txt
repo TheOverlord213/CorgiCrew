@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1244594577	level_music			\Default Work Unit\Main\Character\Music\level_music	
 	1270178218	metal_fall			\Default Work Unit\Main\Character\Environment\metal_fall	
 	1274655755	bark			\Default Work Unit\Main\Character\Dog\bark	
+	1645043423	Bite			\Default Work Unit\Main\Bite	
 	1784312585	fabric_tear			\Default Work Unit\Main\Character\Environment\fabric_tear	
 	1894362767	foot_player			\Default Work Unit\Main\Character\Father\foot_player	
 	2564875616	metal2_fall			\Default Work Unit\Main\Character\Environment\metal2_fall	
@@ -94,6 +95,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	900809104	PlayerFootstep_metal_toe_02	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_metal_toe_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\tile\tile_toe\PlayerFootstep_metal_toe_02		45812
 	919913607	bark4	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\bark4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Dog\dog_bark\bark4		88264
 	939356410	PlayerFootstep_water_toe_04	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_water_toe_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\water\water_toe\PlayerFootstep_water_toe_04		77664
+	943976074	Bite	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\angler_chomp_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Bite		77240
 	953834084	PlayerFootstep_water_heel_04	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_water_heel_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\water\water_heel\PlayerFootstep_water_heel_04		32664
 	955276262	PlayerFootstep_wood_toe_05	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_wood_toe_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\wood\wood_toe\PlayerFootstep_wood_toe_05		48064
 	969087043	PlayerFootstep_metal_toe_06	M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\SFX\PlayerFootstep_metal_toe_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Main\Father\foot_player\tile\tile_toe\PlayerFootstep_metal_toe_06		24152

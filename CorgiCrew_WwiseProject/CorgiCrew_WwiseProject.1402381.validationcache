@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="94">
-	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1580629369" DateHigh="0"/>
+	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1580643251" DateHigh="0"/>
 	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1580629369" DateHigh="0"/>
 	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1580629369" DateHigh="0"/>
-	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1580629369" DateHigh="0"/>
+	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1580630740" DateHigh="0"/>
 	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1580629369" DateHigh="0"/>
 	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1580629369" DateHigh="0"/>
+	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\CorgiCrew_WwiseProject.1402381.wsettings" DateLow="1580635933" DateHigh="0"/>
 	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\CorgiCrew_WwiseProject.wproj" DateLow="1580629369" DateHigh="0"/>
 	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1580629369" DateHigh="0"/>
 	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1580629369" DateHigh="0"/>
 	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\Effects\Factory Effects.wwu" DateLow="1580629369" DateHigh="0"/>
-	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\Events\Default Work Unit.wwu" DateLow="1580629369" DateHigh="0"/>
+	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\Events\Default Work Unit.wwu" DateLow="1580643251" DateHigh="0"/>
 	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1580629369" DateHigh="0"/>
 	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1580629369" DateHigh="0"/>
 	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1580629369" DateHigh="0"/>
@@ -19,10 +20,10 @@
 	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1580629369" DateHigh="0"/>
 	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1580629369" DateHigh="0"/>
 	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\Queries\Factory Queries.wwu" DateLow="1580629369" DateHigh="0"/>
-	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1580629369" DateHigh="0"/>
+	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1580635931" DateHigh="0"/>
 	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1580629369" DateHigh="0"/>
-	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\States\Default Work Unit.wwu" DateLow="1580629369" DateHigh="0"/>
-	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1580629369" DateHigh="0"/>
+	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\States\Default Work Unit.wwu" DateLow="1580633785" DateHigh="0"/>
+	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1580633697" DateHigh="0"/>
 	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1580629369" DateHigh="0"/>
 	<ValidationCacheItem File="M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1580629369" DateHigh="0"/>
 </ValidationCache>

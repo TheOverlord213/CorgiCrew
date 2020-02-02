@@ -399,6 +399,13 @@
 						<Folder Name="Father" ID="{EE9AB8A9-B770-4BA3-A566-08888717BB7D}" ShortID="514686286">
 							<ChildrenList>
 								<SwitchContainer Name="foot_player" ID="{DA33DCB2-3A78-4AA7-B14D-1EB37C0389D5}" ShortID="343579527">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87E7AA35-752C-441D-B9AB-EDD8888230B9}"/>
@@ -2330,6 +2337,25 @@
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Sound Name="Bite" ID="{6F328DE7-EC8C-4ED1-B802-4C425F93B0C2}" ShortID="243190924">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87E7AA35-752C-441D-B9AB-EDD8888230B9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B842F8C5-744F-478F-AD5A-B68344C7106A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="angler_chomp" ID="{0647DC98-7889-4106-A121-01381BCEEF23}" ShortID="943976074">
+									<Language>SFX</Language>
+									<AudioFile>angler_chomp.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="angler_chomp" ID="{0647DC98-7889-4106-A121-01381BCEEF23}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
