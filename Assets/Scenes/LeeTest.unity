@@ -149,6 +149,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
@@ -211,6 +215,10 @@ PrefabInstance:
     - target: {fileID: 1076412814031030, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
       propertyPath: m_Name
       value: SM_Env_PathBlock_01 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1076412814031030, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4311639132665270, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
       propertyPath: m_LocalPosition.x
@@ -992,6 +1000,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -1146,6 +1158,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_01 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.92
@@ -1264,6 +1280,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -1326,6 +1346,10 @@ PrefabInstance:
     - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_01 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1519,6 +1543,10 @@ PrefabInstance:
     - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1729,6 +1757,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 24.919998
@@ -1897,6 +1929,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
@@ -2022,6 +2058,10 @@ PrefabInstance:
     - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_01 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2222,6 +2262,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_GardenEdge_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1707968308908336, guid: 3a8a1b910c459b544b728015491580c7, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4844335181329314, guid: 3a8a1b910c459b544b728015491580c7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.080000006
@@ -2382,6 +2426,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Corner_03 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1029773226374670, guid: f8f4dab9ddab34444993d9715a10c691, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4139095062882024, guid: f8f4dab9ddab34444993d9715a10c691, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20.08
@@ -2513,6 +2561,10 @@ PrefabInstance:
     - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_01 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2727,6 +2779,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.080000006
@@ -2844,6 +2900,10 @@ PrefabInstance:
     - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_01 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3036,6 +3096,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Floor_Tiles_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1263473793766684, guid: 8633d1fc084eee24383e522b8b29e723, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4617066611446350, guid: 8633d1fc084eee24383e522b8b29e723, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -3092,6 +3156,10 @@ PrefabInstance:
     - target: {fileID: 1176181152034498, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
       propertyPath: m_Name
       value: SM_Bld_Floor_Concrete_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176181152034498, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4083170688405480, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3483,6 +3551,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Concrete_Steps_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1348947109254792, guid: 58046ab3e4897b94a8a0c44e25d45c08, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4960774318084524, guid: 58046ab3e4897b94a8a0c44e25d45c08, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.146
@@ -3551,6 +3623,10 @@ PrefabInstance:
     - target: {fileID: 1945260657652118, guid: 610fb923aa6001549b857ef2559384cd, type: 3}
       propertyPath: m_Name
       value: SM_Bld_Floor_Wood_01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945260657652118, guid: 610fb923aa6001549b857ef2559384cd, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4503812955185784, guid: 610fb923aa6001549b857ef2559384cd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3739,6 +3815,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -3862,6 +3942,10 @@ PrefabInstance:
     - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4190,6 +4274,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_PathBlock_01 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1076412814031030, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4311639132665270, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.4799998
@@ -4314,6 +4402,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.919998
@@ -4382,6 +4474,10 @@ PrefabInstance:
     - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_01 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4850,6 +4946,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Deck_Post_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1183146145148976, guid: e39ef9d9608c34b468f398d12d133cd2, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4468136959274528, guid: e39ef9d9608c34b468f398d12d133cd2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.08
@@ -5119,6 +5219,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.5
@@ -5367,6 +5471,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_PathBlock_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1076412814031030, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4311639132665270, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.53
@@ -5423,6 +5531,10 @@ PrefabInstance:
     - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5571,6 +5683,10 @@ PrefabInstance:
     - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5870,6 +5986,10 @@ PrefabInstance:
     - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6273,6 +6393,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.919999
@@ -6371,6 +6495,10 @@ PrefabInstance:
     - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_01 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6486,6 +6614,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Floor_Wood_01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1945260657652118, guid: 610fb923aa6001549b857ef2559384cd, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4503812955185784, guid: 610fb923aa6001549b857ef2559384cd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.4999998
@@ -6549,6 +6681,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_01 (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.919998
@@ -6605,6 +6741,10 @@ PrefabInstance:
     - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6918,6 +7058,10 @@ PrefabInstance:
     - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7469,6 +7613,10 @@ PrefabInstance:
     - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8052,6 +8200,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_PathBlock_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1076412814031030, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4311639132665270, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.9799999
@@ -8196,6 +8348,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 24.919998
@@ -8252,6 +8408,10 @@ PrefabInstance:
     - target: {fileID: 1299282625427246, guid: 9b1348552d66bd1438b9ddee5b470167, type: 3}
       propertyPath: m_Name
       value: SM_Env_Gardenbox_Single_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1299282625427246, guid: 9b1348552d66bd1438b9ddee5b470167, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4263827481925700, guid: 9b1348552d66bd1438b9ddee5b470167, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8413,6 +8573,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_01 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.92
@@ -8533,6 +8697,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_01 (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.919999
@@ -8595,6 +8763,10 @@ PrefabInstance:
     - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8715,6 +8887,10 @@ PrefabInstance:
     - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_01 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8903,6 +9079,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.08
@@ -8959,6 +9139,10 @@ PrefabInstance:
     - target: {fileID: 1176181152034498, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
       propertyPath: m_Name
       value: SM_Bld_Floor_Concrete_01 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176181152034498, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4083170688405480, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9309,6 +9493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -9519,6 +9707,10 @@ PrefabInstance:
     - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9918,6 +10110,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_GardenEdge_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1707968308908336, guid: 3a8a1b910c459b544b728015491580c7, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4844335181329314, guid: 3a8a1b910c459b544b728015491580c7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.080000006
@@ -10044,6 +10240,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_Path_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1042118469190478, guid: 05ffa30900ef0844b8fc2e738e1c6cd8, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4448700363959166, guid: 05ffa30900ef0844b8fc2e738e1c6cd8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.08
@@ -10136,6 +10336,10 @@ PrefabInstance:
     - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_01 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10610,6 +10814,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Path_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1346835876172250, guid: 86344d1afef58554392e1dba5d4999c4, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4264570512545508, guid: 86344d1afef58554392e1dba5d4999c4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.080000006
@@ -10673,6 +10881,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.5
@@ -10735,6 +10947,10 @@ PrefabInstance:
     - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10896,6 +11112,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Floor_Concrete_01 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1176181152034498, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4083170688405480, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.080000006
@@ -11014,6 +11234,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_01 (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.919998
@@ -11131,6 +11355,10 @@ PrefabInstance:
     - target: {fileID: 1076412814031030, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
       propertyPath: m_Name
       value: SM_Env_PathBlock_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1076412814031030, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4311639132665270, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11755,6 +11983,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.4999998
@@ -11817,6 +12049,10 @@ PrefabInstance:
     - target: {fileID: 1176181152034498, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
       propertyPath: m_Name
       value: SM_Bld_Floor_Concrete_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176181152034498, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4083170688405480, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12498,6 +12734,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_01 (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.919998
@@ -12686,6 +12926,10 @@ PrefabInstance:
     - target: {fileID: 1323235106766662, guid: 235a8c1a4718fd4468eda17eca1c1b5c, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Deck_Roof_End_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1323235106766662, guid: 235a8c1a4718fd4468eda17eca1c1b5c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4327269045860500, guid: 235a8c1a4718fd4468eda17eca1c1b5c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13119,6 +13363,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_01 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.08
@@ -13326,6 +13574,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_GardenEdge_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1707968308908336, guid: 3a8a1b910c459b544b728015491580c7, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4844335181329314, guid: 3a8a1b910c459b544b728015491580c7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.08
@@ -13501,6 +13753,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20.08
@@ -13637,6 +13893,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Floor_Concrete_01 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1176181152034498, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4083170688405480, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.08
@@ -13763,6 +14023,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_01 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.08000005
@@ -13882,6 +14146,10 @@ PrefabInstance:
     - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14147,6 +14415,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
@@ -14233,6 +14505,10 @@ PrefabInstance:
     - target: {fileID: 1029773226374670, guid: f8f4dab9ddab34444993d9715a10c691, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Corner_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 1029773226374670, guid: f8f4dab9ddab34444993d9715a10c691, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4139095062882024, guid: f8f4dab9ddab34444993d9715a10c691, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14359,6 +14635,10 @@ PrefabInstance:
     - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14731,6 +15011,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 24.919998
@@ -14966,6 +15250,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Deck_03
       objectReference: {fileID: 0}
+    - target: {fileID: 1586867533422228, guid: a6f5f60245f4d8c45a6ad48981d6727e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4657927204964656, guid: a6f5f60245f4d8c45a6ad48981d6727e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.080000006
@@ -15148,6 +15436,10 @@ PrefabInstance:
     - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_01 (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15577,6 +15869,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -15639,6 +15935,10 @@ PrefabInstance:
     - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16307,6 +16607,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Corner_03 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1029773226374670, guid: f8f4dab9ddab34444993d9715a10c691, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4139095062882024, guid: f8f4dab9ddab34444993d9715a10c691, type: 3}
       propertyPath: m_LocalPosition.x
       value: 24.919998
@@ -16555,6 +16859,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.080001
@@ -16674,6 +16982,10 @@ PrefabInstance:
     - target: {fileID: 1176181152034498, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
       propertyPath: m_Name
       value: SM_Bld_Floor_Concrete_01 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176181152034498, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4083170688405480, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16953,6 +17265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.92
@@ -17077,6 +17393,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_GardenEdge_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1707968308908336, guid: 3a8a1b910c459b544b728015491580c7, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4844335181329314, guid: 3a8a1b910c459b544b728015491580c7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.08
@@ -17133,6 +17453,10 @@ PrefabInstance:
     - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17227,6 +17551,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.5
@@ -17289,6 +17617,10 @@ PrefabInstance:
     - target: {fileID: 1945260657652118, guid: 610fb923aa6001549b857ef2559384cd, type: 3}
       propertyPath: m_Name
       value: SM_Bld_Floor_Wood_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945260657652118, guid: 610fb923aa6001549b857ef2559384cd, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4503812955185784, guid: 610fb923aa6001549b857ef2559384cd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17685,6 +18017,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
@@ -17747,6 +18083,10 @@ PrefabInstance:
     - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_01 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17872,6 +18212,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.92
@@ -17928,6 +18272,10 @@ PrefabInstance:
     - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18251,6 +18599,10 @@ PrefabInstance:
     - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18759,6 +19111,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.919998
@@ -19100,6 +19456,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20.08
@@ -19292,6 +19652,10 @@ PrefabInstance:
     - target: {fileID: 1380151095480974, guid: f99e08c83de05bc45a73e623c2de7885, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Garage_Floor_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1380151095480974, guid: f99e08c83de05bc45a73e623c2de7885, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4090680311511694, guid: f99e08c83de05bc45a73e623c2de7885, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19498,6 +19862,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.919999
@@ -19573,6 +19941,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 24.919998
@@ -19629,6 +20001,10 @@ PrefabInstance:
     - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19755,6 +20131,10 @@ PrefabInstance:
     - target: {fileID: 1299282625427246, guid: 9b1348552d66bd1438b9ddee5b470167, type: 3}
       propertyPath: m_Name
       value: SM_Env_Gardenbox_Single_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1299282625427246, guid: 9b1348552d66bd1438b9ddee5b470167, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4263827481925700, guid: 9b1348552d66bd1438b9ddee5b470167, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19908,6 +20288,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_01 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.919998
@@ -19970,6 +20354,10 @@ PrefabInstance:
     - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_01 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20332,6 +20720,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.919998
@@ -20519,6 +20911,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.919999
@@ -20581,6 +20977,10 @@ PrefabInstance:
     - target: {fileID: 1076412814031030, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
       propertyPath: m_Name
       value: SM_Env_PathBlock_01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1076412814031030, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4311639132665270, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20779,6 +21179,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.5
@@ -20928,6 +21332,10 @@ PrefabInstance:
     - target: {fileID: 1525669128941214, guid: b1c8d5da7fffee342921028540213302, type: 3}
       propertyPath: m_Name
       value: SM_Env_Driveway_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1525669128941214, guid: b1c8d5da7fffee342921028540213302, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4103670737607322, guid: b1c8d5da7fffee342921028540213302, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21079,6 +21487,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.0000005
@@ -21153,6 +21565,10 @@ PrefabInstance:
     - target: {fileID: 1176181152034498, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
       propertyPath: m_Name
       value: SM_Bld_Floor_Concrete_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176181152034498, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4083170688405480, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21405,6 +21821,10 @@ PrefabInstance:
     - target: {fileID: 1176181152034498, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
       propertyPath: m_Name
       value: SM_Bld_Floor_Concrete_01 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176181152034498, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4083170688405480, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21902,6 +22322,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Floor_Wood_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1945260657652118, guid: 610fb923aa6001549b857ef2559384cd, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4503812955185784, guid: 610fb923aa6001549b857ef2559384cd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -22027,6 +22451,10 @@ PrefabInstance:
     - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22339,6 +22767,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.919998
@@ -22525,6 +22957,10 @@ PrefabInstance:
     - target: {fileID: 1672617524853172, guid: b9b72199f51f8cb498348d7a1201d4c1, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Deck_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1672617524853172, guid: b9b72199f51f8cb498348d7a1201d4c1, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4923959816040022, guid: b9b72199f51f8cb498348d7a1201d4c1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22854,6 +23290,10 @@ PrefabInstance:
     - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24044,6 +24484,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Floor_Wood_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1945260657652118, guid: 610fb923aa6001549b857ef2559384cd, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4503812955185784, guid: 610fb923aa6001549b857ef2559384cd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.4999998
@@ -24820,6 +25264,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10
@@ -24883,6 +25331,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Driveway_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1738221020162654, guid: b2e711983faaa8e4f99fa295f942b069, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4353968086195090, guid: b2e711983faaa8e4f99fa295f942b069, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.08
@@ -24945,6 +25397,10 @@ PrefabInstance:
     - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25131,6 +25587,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Floor_Tiles_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1263473793766684, guid: 8633d1fc084eee24383e522b8b29e723, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4617066611446350, guid: 8633d1fc084eee24383e522b8b29e723, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -25193,6 +25653,10 @@ PrefabInstance:
     - target: {fileID: 1380151095480974, guid: f99e08c83de05bc45a73e623c2de7885, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Garage_Floor_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1380151095480974, guid: f99e08c83de05bc45a73e623c2de7885, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4090680311511694, guid: f99e08c83de05bc45a73e623c2de7885, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25343,6 +25807,10 @@ PrefabInstance:
     - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_01 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25542,6 +26010,10 @@ PrefabInstance:
     - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_01 (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25744,6 +26216,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_01 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.08
@@ -25806,6 +26282,10 @@ PrefabInstance:
     - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26057,6 +26537,10 @@ PrefabInstance:
     - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_01 (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26488,6 +26972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.919998
@@ -26563,6 +27051,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20.08
@@ -26619,6 +27111,10 @@ PrefabInstance:
     - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26813,6 +27309,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20.08
@@ -26875,6 +27375,10 @@ PrefabInstance:
     - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27000,6 +27504,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Floor_Tiles_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1263473793766684, guid: 8633d1fc084eee24383e522b8b29e723, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4617066611446350, guid: 8633d1fc084eee24383e522b8b29e723, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.4999995
@@ -27074,6 +27582,10 @@ PrefabInstance:
     - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_01 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27262,6 +27774,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_01 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.080000006
@@ -27325,6 +27841,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20.08
@@ -27381,6 +27901,10 @@ PrefabInstance:
     - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28143,6 +28667,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.5
@@ -28347,6 +28875,10 @@ PrefabInstance:
     - target: {fileID: 1176181152034498, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
       propertyPath: m_Name
       value: SM_Bld_Floor_Concrete_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176181152034498, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4083170688405480, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28727,6 +29259,10 @@ PrefabInstance:
     - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29111,6 +29647,10 @@ PrefabInstance:
     - target: {fileID: 1076412814031030, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
       propertyPath: m_Name
       value: SM_Env_PathBlock_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1076412814031030, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4311639132665270, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30060,6 +30600,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Floor_Concrete_01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1176181152034498, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4083170688405480, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.08
@@ -30195,6 +30739,10 @@ PrefabInstance:
     - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30350,6 +30898,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.080000006
@@ -30449,6 +31001,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.5
@@ -30511,6 +31067,10 @@ PrefabInstance:
     - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30656,6 +31216,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_House_Concrete_Steps_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1348947109254792, guid: 58046ab3e4897b94a8a0c44e25d45c08, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4960774318084524, guid: 58046ab3e4897b94a8a0c44e25d45c08, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.08
@@ -30718,6 +31282,10 @@ PrefabInstance:
     - target: {fileID: 1707968308908336, guid: 3a8a1b910c459b544b728015491580c7, type: 3}
       propertyPath: m_Name
       value: SM_Bld_GardenEdge_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1707968308908336, guid: 3a8a1b910c459b544b728015491580c7, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4844335181329314, guid: 3a8a1b910c459b544b728015491580c7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31176,6 +31744,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_01 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.919999
@@ -31232,6 +31804,10 @@ PrefabInstance:
     - target: {fileID: 1076412814031030, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
       propertyPath: m_Name
       value: SM_Env_PathBlock_01 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1076412814031030, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4311639132665270, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31301,6 +31877,10 @@ PrefabInstance:
     - target: {fileID: 1029773226374670, guid: f8f4dab9ddab34444993d9715a10c691, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Corner_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1029773226374670, guid: f8f4dab9ddab34444993d9715a10c691, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4139095062882024, guid: f8f4dab9ddab34444993d9715a10c691, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31980,6 +32560,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_PathBlock_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1076412814031030, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4311639132665270, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.58
@@ -32357,6 +32941,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Floor_Concrete_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1176181152034498, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4083170688405480, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.5799994
@@ -32413,6 +33001,10 @@ PrefabInstance:
     - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_Name
       value: SM_Bld_House_Interior_Floor_01 (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254579831209004, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4096292449270370, guid: 1e82b76f72cc0254ca9a974405343c94, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32556,6 +33148,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Floor_Wood_01 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1945260657652118, guid: 610fb923aa6001549b857ef2559384cd, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4503812955185784, guid: 610fb923aa6001549b857ef2559384cd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.4999998
@@ -32659,6 +33255,10 @@ PrefabInstance:
     - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32849,6 +33449,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_PathBlock_01 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1076412814031030, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4311639132665270, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.0497684
@@ -32905,6 +33509,10 @@ PrefabInstance:
     - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_01 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33103,6 +33711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_01 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1990216340993278, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4518735152137134, guid: 5afed722cc07f0045bfb9c283f384e9c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.08
@@ -33159,6 +33771,10 @@ PrefabInstance:
     - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33345,6 +33961,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Floor_Concrete_01 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1176181152034498, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4083170688405480, guid: 1beff61a305171641a76f9baf951ae59, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.08
@@ -33469,6 +34089,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_PathBlock_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1076412814031030, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
+      propertyPath: m_TagString
+      value: Floor
+      objectReference: {fileID: 0}
     - target: {fileID: 4311639132665270, guid: b6fa5a858af1ba24eb52ecc8187e1289, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.074
@@ -33592,6 +34216,10 @@ PrefabInstance:
     - target: {fileID: 1263473793766684, guid: 8633d1fc084eee24383e522b8b29e723, type: 3}
       propertyPath: m_Name
       value: SM_Bld_Floor_Tiles_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1263473793766684, guid: 8633d1fc084eee24383e522b8b29e723, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4617066611446350, guid: 8633d1fc084eee24383e522b8b29e723, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33803,6 +34431,10 @@ PrefabInstance:
     - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_Name
       value: SM_Env_Sidewalk_Straight_01 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1965217916719786, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
+      propertyPath: m_TagString
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4271606401288934, guid: 2122ac2d547f3554a9ac5dc8129dff7e, type: 3}
       propertyPath: m_LocalPosition.x

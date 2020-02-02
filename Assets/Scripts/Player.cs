@@ -18,7 +18,6 @@ public class Player : MonoBehaviour
     [Header("Other")]
     public GameManager gm;
 
-
     private InputMaster imaster;
     private Vector2 moveDir;
     private Vector2 moveDirInput;
@@ -34,6 +33,11 @@ public class Player : MonoBehaviour
     public bool wantsToPickUp;
     private List<GameObject> closeObjs;
 
+    private Vector3 jump;
+    private float jumpForce = 2.5f;
+
+    public bool isGrounded = true;
+    Rigidbody rb;
 
     void Awake()
     {
@@ -55,6 +59,9 @@ public class Player : MonoBehaviour
         {
             speed = 5.5f;
         }
+
+        rb = GetComponent<Rigidbody>();
+        jump = new Vector3(0.0f, 2.0f, 0.0f);
     }
 
     // Update is called once per frame
@@ -194,5 +201,29 @@ public class Player : MonoBehaviour
         }
         
     }
+
+    void OnJump()
+    {
+       
+        if (gameObject.CompareTag("Player1") && isGrounded)
+        {          
+            Debug.Log("doggo jumped");
+            rb.AddForce(jump * jumpForce, ForceMode.Impulse);
+            isGrounded = false;
+        }
+
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        Debug.Log("being called 0");
+        if (other.gameObject.tag == "Floor" && !isGrounded)
+        {
+            Debug.Log("being called");
+            isGrounded = true;
+        }
+            
+    }
+
 
 }
