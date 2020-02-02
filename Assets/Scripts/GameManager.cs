@@ -16,11 +16,11 @@ public class GameManager : MonoBehaviour
 
     private float gameOverTimerChecker = 0.0f;
     private readonly int maxGameTime = 120;
-    public Text timerText;
+    public TextMeshProUGUI timerText;
 
-    public Text corgiWins;
-    public Text ownerWins;
-    public Text draw;
+    public GameObject corgiWins;
+    public GameObject ownerWins;
+    public GameObject draw;
     public GameObject waitingText;
 
     public Material transMat;
@@ -61,9 +61,9 @@ public class GameManager : MonoBehaviour
         progressSlider.maxValue = objectData.Count;
         progressSlider.value = 0;
 
-        corgiWins.enabled = false;
-        ownerWins.enabled = false;
-        draw.enabled = false;
+        corgiWins.SetActive(false);
+        ownerWins.SetActive(false);
+        draw.SetActive(false);
     }
 
     // Update is called once per frame
@@ -94,6 +94,8 @@ public class GameManager : MonoBehaviour
             StartCoroutine(CountDownToStart());
         }
 
+
+        GameOverTimerCount();
         CheckCloseObj();
         QuitGame();
     }
@@ -205,30 +207,35 @@ public class GameManager : MonoBehaviour
 
     void GameOverTimerCount()
     {
-        gameOverTimerChecker += Time.deltaTime;
-        int seconds = Mathf.RoundToInt(gameOverTimerChecker % 60.0f);
-        int tempNum = maxGameTime - seconds;   
-        timerText.text = tempNum.ToString(); ;
-        if (seconds == maxGameTime)
+        if(startGame)
         {
-            float tempPercentage = progressSlider.maxValue / 2.0f;
-            if (progressSlider.value < tempPercentage)
+            gameOverTimerChecker += Time.deltaTime;
+            int seconds = Mathf.RoundToInt(gameOverTimerChecker % 60.0f);
+            int tempNum = maxGameTime - seconds;
+            Debug.Log(maxGameTime);
+            timerText.text = tempNum.ToString();
+            if (seconds == maxGameTime)
             {
-                ownerWins.enabled = true;
-            }
-            else if (progressSlider.value > tempPercentage)
-            {
-                corgiWins.enabled = true;
-            }
-            else if (progressSlider.value == tempPercentage)
-            {
-                draw.enabled = true;
-            }
+                float tempPercentage = progressSlider.maxValue / 2.0f;
+                if (progressSlider.value < tempPercentage)
+                {
+                    ownerWins.SetActive(true);
+                }
+                else if (progressSlider.value > tempPercentage)
+                {
+                    corgiWins.SetActive(true);
+                }
+                else if (progressSlider.value == tempPercentage)
+                {
+                    draw.SetActive(true);
+                }
 
-            startGame = false;
-            PauseTime(true);
-            
+                startGame = false;
+                PauseTime(true);
+
+            }
         }
+       
     }
 
     void PauseTime(bool timeIsFrozen)
@@ -253,7 +260,6 @@ public class GameManager : MonoBehaviour
 
         countdownDisplay.GetComponent<TextMeshProUGUI>().text = "Go";
         yield return new WaitForSecondsRealtime(1f);
-        GameOverTimerCount();
         startGame = true;
         countdownDisplay.SetActive(false);
 
