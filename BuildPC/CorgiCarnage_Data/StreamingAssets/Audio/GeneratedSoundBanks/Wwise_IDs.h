@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID BARK = 1274655755U;
+        static const AkUniqueID BITE = 1645043423U;
         static const AkUniqueID DOG_FOOT = 698346356U;
         static const AkUniqueID FABRIC_TEAR = 1784312585U;
         static const AkUniqueID FOOT_PLAYER = 1894362767U;

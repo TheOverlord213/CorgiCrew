@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
@@ -60,6 +61,8 @@ public class GameManager : MonoBehaviour
     {
         progressSlider.maxValue = objectData.Count;
         progressSlider.value = 0;
+
+        gameOverTimerChecker = maxGameTime;
 
         corgiWins.SetActive(false);
         ownerWins.SetActive(false);
@@ -200,26 +203,34 @@ public class GameManager : MonoBehaviour
     public void SliderValueChange(bool increased)
     {
         if (increased)
-            progressSlider.value++;
+            progressSlider.value = progressSlider.value + 1.5f;
         else if (!increased)
-            progressSlider.value--;
+            progressSlider.value = progressSlider.value - 1f;
     }
 
     void GameOverTimerCount()
     {
         if(startGame)
         {
-            gameOverTimerChecker += Time.deltaTime;
-            int seconds = Mathf.RoundToInt(gameOverTimerChecker % 60.0f);
-            int tempNum = maxGameTime - seconds;
-            Debug.Log(maxGameTime);
-            timerText.text = tempNum.ToString();
-            if (seconds == maxGameTime)
+            //gameOverTimerChecker += Time.deltaTime;
+            //int seconds = Mathf.RoundToInt(gameOverTimerChecker % 60.0f);
+            //int tempNum = maxGameTime - seconds;
+            //Debug.Log(maxGameTime);
+            //timerText.text = tempNum.ToString();
+            
+            gameOverTimerChecker -= Time.deltaTime;
+            //int seconds = Mathf.RoundToInt(gameOverTimerChecker % 60.0f);
+            int seconds = Mathf.RoundToInt(gameOverTimerChecker);
+            timerText.text = seconds.ToString();
+            //if (seconds <= 0)
+            if (seconds <= 0)
             {
+                Debug.Log("Timer elappsed");
                 float tempPercentage = progressSlider.maxValue / 2.0f;
                 if (progressSlider.value < tempPercentage)
                 {
                     ownerWins.SetActive(true);
+
                 }
                 else if (progressSlider.value > tempPercentage)
                 {
@@ -231,6 +242,8 @@ public class GameManager : MonoBehaviour
                 }
 
                 startGame = false;
+                LoadMainMenu();
+                gameOverTimerChecker = maxGameTime;
                 PauseTime(true);
 
             }
@@ -264,5 +277,21 @@ public class GameManager : MonoBehaviour
         countdownDisplay.SetActive(false);
 
 
+    }
+
+
+    public void LoadMainMenu()
+    {
+        StartCoroutine(LoadNewScene(0));
+    }
+
+    IEnumerator LoadNewScene(int sceneNumber)
+    {
+        yield return new WaitForSecondsRealtime(10f);
+
+        AsyncOperation async = SceneManager.LoadSceneAsync(sceneNumber);
+
+        while (!async.isDone)
+            yield return null;
     }
 }
