@@ -51,6 +51,10 @@ public class Player : MonoBehaviour
     void Start()
     {
         m_Animator = gameObject.GetComponent<Animator>();
+        if(gameObject.CompareTag("Player1"))
+        {
+            speed = 5.5f;
+        }
     }
 
     // Update is called once per frame
@@ -144,10 +148,14 @@ public class Player : MonoBehaviour
 
     void OnMovement(InputValue _value)
     {
-        moveDir = _value.Get<Vector2>();
-        lookDir = _value.Get<Vector2>();
-        
-        setTimer = 0.4f;
+        if(gm.startGame)
+        {
+            moveDir = _value.Get<Vector2>();
+            lookDir = _value.Get<Vector2>();
+
+            setTimer = 0.4f;
+        }
+     
     }
 
     void OnPickUp()

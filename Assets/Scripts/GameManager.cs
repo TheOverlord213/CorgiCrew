@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,12 +15,13 @@ public class GameManager : MonoBehaviour
     private float tempWaitChecker = 0.0f;
 
     private float gameOverTimerChecker = 0.0f;
-    private readonly int maxGameTime = 60;
+    private readonly int maxGameTime = 120;
     public Text timerText;
 
     public Text corgiWins;
     public Text ownerWins;
     public Text draw;
+    public GameObject waitingText;
 
     public Material transMat;
 
@@ -28,8 +30,12 @@ public class GameManager : MonoBehaviour
     public GameObject closeObj;
 
     public Slider progressSlider;
-
+    public GameObject countdownDisplay;
+    public bool startGame = false;
+    private bool startedCountdown = false;
     private Vector3 playerItemAnchorPoint = new Vector3 (0,0,0);
+    public int countownTime;
+    
 
     private void Awake()
     {
@@ -78,10 +84,14 @@ public class GameManager : MonoBehaviour
             SetObject();
         }
 
-        if (GameObject.FindGameObjectWithTag("Player1") != null && GameObject.FindGameObjectWithTag("Player2") != null)
+        if (GameObject.FindGameObjectWithTag("Player1") != null && GameObject.FindGameObjectWithTag("Player2") != null && !startedCountdown)
         {
             Debug.Log("both players exist");
-            GameOverTimerCount();
+            startedCountdown = true;
+            waitingText.SetActive(false);
+            countdownDisplay.SetActive(true);
+            countdownDisplay.SetActive(true);
+            StartCoroutine(CountDownToStart());
         }
 
         CheckCloseObj();
@@ -205,6 +215,7 @@ public class GameManager : MonoBehaviour
                 draw.enabled = true;
             }
 
+            startGame = false;
             PauseTime(true);
             
         }
@@ -216,5 +227,26 @@ public class GameManager : MonoBehaviour
             Time.timeScale = 0;
         else if (!timeIsFrozen)
             Time.timeScale = 1;
+    }
+
+
+    IEnumerator CountDownToStart()
+    {
+        while(countownTime>0)
+        {
+            countdownDisplay.GetComponent<TextMeshProUGUI>().text = countownTime.ToString();
+
+            yield return new WaitForSecondsRealtime(1f);
+
+            countownTime--;
+        }
+
+        countdownDisplay.GetComponent<TextMeshProUGUI>().text = "Go";
+        yield return new WaitForSecondsRealtime(1f);
+        GameOverTimerCount();
+        startGame = true;
+        countdownDisplay.SetActive(false);
+
+
     }
 }

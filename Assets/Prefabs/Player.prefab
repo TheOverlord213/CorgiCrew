@@ -163,6 +163,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 56.777004
       objectReference: {fileID: 0}
+    - target: {fileID: 2785186249654829088, guid: 60bdd1ccecdc2a042a8217a1de6380b1,
+        type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 23
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60bdd1ccecdc2a042a8217a1de6380b1, type: 3}
 --- !u!1 &8272912670171226402 stripped
@@ -284,6 +289,11 @@ PrefabInstance:
       propertyPath: playerRigidbody
       value: 
       objectReference: {fileID: 3550757280298965878}
+    - target: {fileID: 3099813636505101162, guid: 2161b095537fcf54ab1ba19344f16fc7,
+        type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 23
+      objectReference: {fileID: 0}
     - target: {fileID: 8969350101129835770, guid: 2161b095537fcf54ab1ba19344f16fc7,
         type: 3}
       propertyPath: m_Name

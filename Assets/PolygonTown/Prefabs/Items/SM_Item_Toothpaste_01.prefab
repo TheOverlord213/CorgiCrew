@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4210263105911038}
   - component: {fileID: 33170822504551170}
   - component: {fileID: 23499992156912930}
+  - component: {fileID: 4276366415053018118}
   m_Layer: 0
   m_Name: SM_Item_Toothpaste_01
   m_TagString: Untagged
@@ -78,3 +79,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &4276366415053018118
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313563210962000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 1e5293a3fa550bc42b4af930b279734e, type: 3}
