@@ -269,6 +269,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1780970816716327153, guid: 2161b095537fcf54ab1ba19344f16fc7,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1701648599188422139}
     - target: {fileID: 284333676017146268, guid: 2161b095537fcf54ab1ba19344f16fc7,
         type: 3}
       propertyPath: mainCamera
@@ -279,11 +284,6 @@ PrefabInstance:
       propertyPath: playerRigidbody
       value: 
       objectReference: {fileID: 3550757280298965878}
-    - target: {fileID: 1780970816716327153, guid: 2161b095537fcf54ab1ba19344f16fc7,
-        type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 1701648599188422139}
     - target: {fileID: 8969350101129835770, guid: 2161b095537fcf54ab1ba19344f16fc7,
         type: 3}
       propertyPath: m_Name
