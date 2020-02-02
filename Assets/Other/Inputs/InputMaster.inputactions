@@ -36,6 +36,14 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "Bark",
+                    "type": "Button",
+                    "id": "e97d557e-5c1c-4d22-91b8-72b3b12b7322",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -91,6 +99,17 @@
                     "processors": "",
                     "groups": "Controller",
                     "action": "Escape",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fa3e5e9c-3ec2-4937-a4bb-4965fd41abeb",
+                    "path": "<XInputController>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Controller",
+                    "action": "Bark",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

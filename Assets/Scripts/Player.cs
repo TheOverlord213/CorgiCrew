@@ -173,4 +173,13 @@ public class Player : MonoBehaviour
         Application.Quit();
     }
 
+    void OnBark()
+    {
+        if(gameObject.CompareTag("Player1"))
+        {
+            m_Animator.SetTrigger("Bark");
+        }
+        
+    }
+
 }
