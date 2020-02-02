@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class GameManager : MonoBehaviour
@@ -12,12 +13,21 @@ public class GameManager : MonoBehaviour
 
     private float tempWaitChecker = 0.0f;
 
+    private float gameOverTimerChecker = 0.0f;
+    private readonly int maxGameTime = 60;
+    public Text timerText;
+
+    public Text corgiWins;
+    public Text ownerWins;
+    public Text draw;
+
     public Material transMat;
 
     private GameObject player;
     public GameObject pickedUpObject;
     public GameObject closeObj;
-    
+
+    public Slider progressSlider;
 
     private Vector3 playerItemAnchorPoint = new Vector3 (0,0,0);
 
@@ -42,8 +52,12 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // sets up the anchor point for the player
-        CreateAnchorPoint();
+        progressSlider.maxValue = objectData.Count;
+        progressSlider.value = 0;
+
+        corgiWins.enabled = false;
+        ownerWins.enabled = false;
+        draw.enabled = false;
     }
 
     // Update is called once per frame
@@ -64,8 +78,14 @@ public class GameManager : MonoBehaviour
             SetObject();
         }
 
-        CheckCloseObj();
+        if (GameObject.FindGameObjectWithTag("Player1") != null && GameObject.FindGameObjectWithTag("Player2") != null)
+        {
+            Debug.Log("both players exist");
+            GameOverTimerCount();
+        }
 
+        CheckCloseObj();
+        QuitGame();
     }
 
     void CreateAnchorPoint()
@@ -94,12 +114,11 @@ public class GameManager : MonoBehaviour
             }
             objectWaitBool = true;
         }
-
     }
 
     public void PlayerPickUpDetected()
     {
-        if(closeObj!=null)
+        if (closeObj != null)
         {
             objectPickedUp = true;
             pickedUpObject = closeObj;
@@ -107,10 +126,7 @@ public class GameManager : MonoBehaviour
             {
                 c.enabled = false;
             }
-
         }
-       
-
     }
 
     private void SetObject()
@@ -123,14 +139,14 @@ public class GameManager : MonoBehaviour
 
     public void TestDistance(GameObject newobj)
     {
-        if(closeObj==null)
+        if (closeObj == null)
         {
             closeObj = newobj;
         }
         else
         {
-            if(Vector3.Distance(newobj.transform.position,player.transform.position)
-                <Vector3.Distance(closeObj.transform.position,player.transform.position))
+            if (Vector3.Distance(newobj.transform.position,player.transform.position)
+                < Vector3.Distance(closeObj.transform.position,player.transform.position))
             {
                 closeObj = newobj;
             }
@@ -140,12 +156,65 @@ public class GameManager : MonoBehaviour
 
     void CheckCloseObj()
     {
-        if(Vector3.Distance(player.transform.position,closeObj.transform.position)>2f)
+        if (closeObj != null)
         {
-            closeObj = null;
+            if (Vector3.Distance(player.transform.position,closeObj.transform.position) > 2f)
+            {
+                closeObj = null;
+            }
+        }
+      
+    }
+
+    void QuitGame()
+    {     
+        if (Input.GetKey("escape"))
+        {
+            Debug.Log("Escaped");
+            Application.Quit();
         }
     }
 
+    public void SliderValueChange(bool increased)
+    {
+        if (increased)
+            progressSlider.value++;
+        else if (!increased)
+            progressSlider.value--;
+    }
 
+    void GameOverTimerCount()
+    {
+        gameOverTimerChecker += Time.deltaTime;
+        int seconds = Mathf.RoundToInt(gameOverTimerChecker % 60.0f);
+        int tempNum = maxGameTime - seconds;   
+        timerText.text = tempNum.ToString(); ;
+        if (seconds == maxGameTime)
+        {
+            float tempPercentage = progressSlider.maxValue / 2.0f;
+            if (progressSlider.value < tempPercentage)
+            {
+                ownerWins.enabled = true;
+            }
+            else if (progressSlider.value > tempPercentage)
+            {
+                corgiWins.enabled = true;
+            }
+            else if (progressSlider.value == tempPercentage)
+            {
+                draw.enabled = true;
+            }
 
+            PauseTime(true);
+            
+        }
+    }
+
+    void PauseTime(bool timeIsFrozen)
+    {
+        if (timeIsFrozen)
+            Time.timeScale = 0;
+        else if (!timeIsFrozen)
+            Time.timeScale = 1;
+    }
 }

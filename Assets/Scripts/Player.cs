@@ -167,6 +167,10 @@ public class Player : MonoBehaviour
         }
     }
 
-
+    void OnEscape()
+    {
+        Debug.Log("Escaped");
+        Application.Quit();
+    }
 
 }
