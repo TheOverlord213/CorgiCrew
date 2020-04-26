@@ -3,30 +3,30 @@
 	<Platform GUID="{1CE896D8-7A3B-4098-A6E4-6AB8D02E52CE}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="2279659568" Timestamp="1580646278"/>
+				<File Name="Init" Hash="2279659568" Timestamp="1587938049"/>
 			</Language>
 			<Language ID="684519430">
-				<File Name="corgiSB" Hash="322268053" Timestamp="1580646278"/>
+				<File Name="corgiSB" Hash="3846352642" Timestamp="1587938315"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2814219706" Timestamp="1580646278"/>
+				<File Name="" Hash="1385928386" Timestamp="1587938315"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{CE9B62CE-A748-4148-A5D3-5AA91868D5AF}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="1182415902" Timestamp="1580646289"/>
+				<File Name="Init" Hash="1182415902" Timestamp="1587938051"/>
 			</Language>
 			<Language ID="684519430">
-				<File Name="corgiSB" Hash="322268053" Timestamp="1580646289"/>
+				<File Name="corgiSB" Hash="3846352642" Timestamp="1587938316"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2767230820" Timestamp="1580646289"/>
+				<File Name="" Hash="3789869176" Timestamp="1587938316"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

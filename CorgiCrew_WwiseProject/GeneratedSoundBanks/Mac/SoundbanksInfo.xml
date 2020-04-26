@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
-		<ProjectRoot>M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>D:\CorgiCrew\CorgiCrew_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\CorgiCrew\CorgiCrew_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\CorgiCrew\CorgiCrew_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>M:\GitHub\CorgiCrew\CorgiCrew_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\CorgiCrew\CorgiCrew_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
