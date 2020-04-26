@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>D:\CorgiCrew\CorgiCrew_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\CorgiCrew\CorgiCrew_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\CorgiCrew\CorgiCrew_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\CorgiCrew\CorgiCrew_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1981939356" Language="English(US)">
+			<ObjectPath>\SoundBanks\Default Work Unit\corgiSB</ObjectPath>
+			<ShortName>corgiSB</ShortName>
+			<Path>English(US)\corgiSB.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1274655755" Name="bark" ObjectPath="\Events\Default Work Unit\Main\Character\Dog\bark" DurationType="OneShot" DurationMin="0.438556" DurationMax="0.890730"/>
+				<Event Id="1645043423" Name="Bite" ObjectPath="\Events\Default Work Unit\Main\Bite" DurationType="OneShot" DurationMin="0.437506" DurationMax="0.437506"/>
+				<Event Id="698346356" Name="dog_foot" ObjectPath="\Events\Default Work Unit\Main\Character\Dog\dog_foot" DurationType="OneShot" DurationMin="0.138505" DurationMax="0.175138"/>
+				<Event Id="1784312585" Name="fabric_tear" ObjectPath="\Events\Default Work Unit\Main\Character\Environment\fabric_tear" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.500000"/>
+				<Event Id="1894362767" Name="foot_player" ObjectPath="\Events\Default Work Unit\Main\Character\Father\foot_player" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.607729"/>
+				<Event Id="1055264203" Name="growl_dog" ObjectPath="\Events\Default Work Unit\Main\Character\Dog\growl_dog" DurationType="OneShot" DurationMin="1.056726" DurationMax="2.528459"/>
+				<Event Id="1244594577" Name="level_music" ObjectPath="\Events\Default Work Unit\Main\Character\Music\level_music" DurationType="Infinite"/>
+				<Event Id="2564875616" Name="metal2_fall" ObjectPath="\Events\Default Work Unit\Main\Character\Environment\metal2_fall" DurationType="OneShot" DurationMin="3.272744" DurationMax="3.272744"/>
+				<Event Id="1270178218" Name="metal_fall" ObjectPath="\Events\Default Work Unit\Main\Character\Environment\metal_fall" DurationType="OneShot" DurationMin="2.493515" DurationMax="2.493515"/>
+				<Event Id="2914442879" Name="tubs_fall" ObjectPath="\Events\Default Work Unit\Main\Character\Environment\tubs_fall" DurationType="OneShot" DurationMin="2.727279" DurationMax="2.727279"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="4174969" Language="SFX">
+					<ShortName>PlayerFootstep_wood_toe_06.wav</ShortName>
+					<Path>SFX\PlayerFootstep_wood_toe_06_10C4C929.wem</Path>
+				</File>
+				<File Id="24336779" Language="SFX">
+					<ShortName>PlayerFootstep_water_heel_03.wav</ShortName>
+					<Path>SFX\PlayerFootstep_water_heel_03_10C4C929.wem</Path>
+				</File>
+				<File Id="31572135" Language="SFX">
+					<ShortName>PlayerFootstep_wood_heel_04.wav</ShortName>
+					<Path>SFX\PlayerFootstep_wood_heel_04_10C4C929.wem</Path>
+				</File>
+				<File Id="40504956" Language="SFX">
+					<ShortName>growl5.wav</ShortName>
+					<Path>SFX\growl5_10C4C929.wem</Path>
+				</File>
+				<File Id="51947667" Language="SFX">
+					<ShortName>growl3.wav</ShortName>
+					<Path>SFX\growl3_10C4C929.wem</Path>
+				</File>
+				<File Id="71663510" Language="SFX">
+					<ShortName>PlayerFootstep_water_heel_01.wav</ShortName>
+					<Path>SFX\PlayerFootstep_water_heel_01_10C4C929.wem</Path>
+				</File>
+				<File Id="76186846" Language="SFX">
+					<ShortName>PlayerFootstep_concrete_toe_05.wav</ShortName>
+					<Path>SFX\PlayerFootstep_concrete_toe_05_10C4C929.wem</Path>
+				</File>
+				<File Id="86964616" Language="SFX">
+					<ShortName>PlayerFootstep_wood_heel_06.wav</ShortName>
+					<Path>SFX\PlayerFootstep_wood_heel_06_10C4C929.wem</Path>
+				</File>
+				<File Id="87955973" Language="SFX">
+					<ShortName>PlayerFootstep_concrete_toe_04.wav</ShortName>
+					<Path>SFX\PlayerFootstep_concrete_toe_04_10C4C929.wem</Path>
+				</File>
+				<File Id="89092941" Language="SFX">
+					<ShortName>PlayerFootstep_metal_heel_06.wav</ShortName>
+					<Path>SFX\PlayerFootstep_metal_heel_06_10C4C929.wem</Path>
+				</File>
+				<File Id="97263263" Language="SFX">
+					<ShortName>PlayerFootstep_wood_heel_02.wav</ShortName>
+					<Path>SFX\PlayerFootstep_wood_heel_02_10C4C929.wem</Path>
+				</File>
+				<File Id="100299502" Language="SFX">
+					<ShortName>PlayerFootstep_wood_heel_05.wav</ShortName>
+					<Path>SFX\PlayerFootstep_wood_heel_05_10C4C929.wem</Path>
+				</File>
+				<File Id="102230094" Language="SFX">
+					<ShortName>PlayerFootstep_concrete_toe_01.wav</ShortName>
+					<Path>SFX\PlayerFootstep_concrete_toe_01_10C4C929.wem</Path>
+				</File>
+				<File Id="103597650" Language="SFX">
+					<ShortName>PlayerFootstep_grass_heel_06.wav</ShortName>
+					<Path>SFX\PlayerFootstep_grass_heel_06_10C4C929.wem</Path>
+				</File>
+				<File Id="105560078" Language="SFX">
+					<ShortName>PlayerFootstep_water_toe_03.wav</ShortName>
+					<Path>SFX\PlayerFootstep_water_toe_03_10C4C929.wem</Path>
+				</File>
+				<File Id="110904056" Language="SFX">
+					<ShortName>PlayerFootstep_metal_heel_04.wav</ShortName>
+					<Path>SFX\PlayerFootstep_metal_heel_04_10C4C929.wem</Path>
+				</File>
+				<File Id="118127914" Language="SFX">
+					<ShortName>PlayerFootstep_concrete_heel_01.wav</ShortName>
+					<Path>SFX\PlayerFootstep_concrete_heel_01_10C4C929.wem</Path>
+				</File>
+				<File Id="127727796" Language="SFX">
+					<ShortName>PlayerFootstep_water_toe_02.wav</ShortName>
+					<Path>SFX\PlayerFootstep_water_toe_02_10C4C929.wem</Path>
+				</File>
+				<File Id="132188899" Language="SFX">
+					<ShortName>PlayerFootstep_metal_toe_04.wav</ShortName>
+					<Path>SFX\PlayerFootstep_metal_toe_04_10C4C929.wem</Path>
+				</File>
+				<File Id="133602458" Language="SFX">
+					<ShortName>PlayerFootstep_grass_toe_06.wav</ShortName>
+					<Path>SFX\PlayerFootstep_grass_toe_06_10C4C929.wem</Path>
+				</File>
+				<File Id="143431160" Language="SFX">
+					<ShortName>PlayerFootstep_metal_toe_05.wav</ShortName>
+					<Path>SFX\PlayerFootstep_metal_toe_05_10C4C929.wem</Path>
+				</File>
+				<File Id="161485647" Language="SFX">
+					<ShortName>PlayerFootstep_grass_heel_03.wav</ShortName>
+					<Path>SFX\PlayerFootstep_grass_heel_03_10C4C929.wem</Path>
+				</File>
+				<File Id="167426834" Language="SFX">
+					<ShortName>falling_pots1.wav</ShortName>
+					<Path>SFX\falling_pots1_10C4C929.wem</Path>
+				</File>
+				<File Id="204063910" Language="SFX">
+					<ShortName>PlayerFootstep_wood_heel_03.wav</ShortName>
+					<Path>SFX\PlayerFootstep_wood_heel_03_10C4C929.wem</Path>
+				</File>
+				<File Id="211336371" Language="SFX">
+					<ShortName>PlayerFootstep_water_heel_05.wav</ShortName>
+					<Path>SFX\PlayerFootstep_water_heel_05_10C4C929.wem</Path>
+				</File>
+				<File Id="225039184" Language="English(US)">
+					<ShortName>falling_tubs1.wav</ShortName>
+					<Path>Voices\English(US)\falling_tubs1_10C4C929.wem</Path>
+				</File>
+				<File Id="240998946" Language="SFX">
+					<ShortName>growl1.wav</ShortName>
+					<Path>SFX\growl1_10C4C929.wem</Path>
+				</File>
+				<File Id="250372508" Language="SFX">
+					<ShortName>PlayerFootstep_water_heel_06.wav</ShortName>
+					<Path>SFX\PlayerFootstep_water_heel_06_10C4C929.wem</Path>
+				</File>
+				<File Id="255471825" Language="SFX">
+					<ShortName>bark3.wav</ShortName>
+					<Path>SFX\bark3_10C4C929.wem</Path>
+				</File>
+				<File Id="264833941" Language="SFX">
+					<ShortName>PlayerFootstep_grass_toe_04.wav</ShortName>
+					<Path>SFX\PlayerFootstep_grass_toe_04_10C4C929.wem</Path>
+				</File>
+				<File Id="287996971" Language="SFX">
+					<ShortName>rip2.wav</ShortName>
+					<Path>SFX\rip2_10C4C929.wem</Path>
+				</File>
+				<File Id="290017404" Language="SFX">
+					<ShortName>rip3.wav</ShortName>
+					<Path>SFX\rip3_10C4C929.wem</Path>
+				</File>
+				<File Id="300553770" Language="SFX">
+					<ShortName>growl2.wav</ShortName>
+					<Path>SFX\growl2_10C4C929.wem</Path>
+				</File>
+				<File Id="314971310" Language="SFX">
+					<ShortName>bark2.wav</ShortName>
+					<Path>SFX\bark2_10C4C929.wem</Path>
+				</File>
+				<File Id="375506429" Language="SFX">
+					<ShortName>PlayerFootstep_grass_toe_03.wav</ShortName>
+					<Path>SFX\PlayerFootstep_grass_toe_03_10C4C929.wem</Path>
+				</File>
+				<File Id="422971738" Language="SFX">
+					<ShortName>PlayerFootstep_metal_heel_02.wav</ShortName>
+					<Path>SFX\PlayerFootstep_metal_heel_02_10C4C929.wem</Path>
+				</File>
+				<File Id="428997958" Language="SFX">
+					<ShortName>PlayerFootstep_concrete_heel_04.wav</ShortName>
+					<Path>SFX\PlayerFootstep_concrete_heel_04_10C4C929.wem</Path>
+				</File>
+				<File Id="446810509" Language="SFX">
+					<ShortName>PlayerFootstep_wood_toe_03.wav</ShortName>
+					<Path>SFX\PlayerFootstep_wood_toe_03_10C4C929.wem</Path>
+				</File>
+				<File Id="448148214" Language="SFX">
+					<ShortName>PlayerFootstep_metal_heel_03.wav</ShortName>
+					<Path>SFX\PlayerFootstep_metal_heel_03_10C4C929.wem</Path>
+				</File>
+				<File Id="452970888" Language="SFX">
+					<ShortName>claw_floor4.wav</ShortName>
+					<Path>SFX\claw_floor4_10C4C929.wem</Path>
+				</File>
+				<File Id="498422236" Language="SFX">
+					<ShortName>PlayerFootstep_water_heel_02.wav</ShortName>
+					<Path>SFX\PlayerFootstep_water_heel_02_10C4C929.wem</Path>
+				</File>
+				<File Id="512267808" Language="SFX">
+					<ShortName>falling_pots2.wav</ShortName>
+					<Path>SFX\falling_pots2_10C4C929.wem</Path>
+				</File>
+				<File Id="524799861" Language="SFX">
+					<ShortName>PlayerFootstep_concrete_heel_06.wav</ShortName>
+					<Path>SFX\PlayerFootstep_concrete_heel_06_10C4C929.wem</Path>
+				</File>
+				<File Id="531600232" Language="SFX">
+					<ShortName>claw_floor5.wav</ShortName>
+					<Path>SFX\claw_floor5_10C4C929.wem</Path>
+				</File>
+				<File Id="548850558" Language="SFX">
+					<ShortName>PlayerFootstep_metal_heel_05.wav</ShortName>
+					<Path>SFX\PlayerFootstep_metal_heel_05_10C4C929.wem</Path>
+				</File>
+				<File Id="557289467" Language="SFX">
+					<ShortName>PlayerFootstep_grass_toe_02.wav</ShortName>
+					<Path>SFX\PlayerFootstep_grass_toe_02_10C4C929.wem</Path>
+				</File>
+				<File Id="587546682" Language="SFX">
+					<ShortName>PlayerFootstep_concrete_toe_03.wav</ShortName>
+					<Path>SFX\PlayerFootstep_concrete_toe_03_10C4C929.wem</Path>
+				</File>
+				<File Id="628560027" Language="SFX">
+					<ShortName>PlayerFootstep_grass_toe_01.wav</ShortName>
+					<Path>SFX\PlayerFootstep_grass_toe_01_10C4C929.wem</Path>
+				</File>
+				<File Id="642116737" Language="SFX">
+					<ShortName>PlayerFootstep_grass_heel_02.wav</ShortName>
+					<Path>SFX\PlayerFootstep_grass_heel_02_10C4C929.wem</Path>
+				</File>
+				<File Id="642276191" Language="SFX">
+					<ShortName>PlayerFootstep_metal_toe_01.wav</ShortName>
+					<Path>SFX\PlayerFootstep_metal_toe_01_10C4C929.wem</Path>
+				</File>
+				<File Id="650420055" Language="SFX">
+					<ShortName>PlayerFootstep_wood_heel_01.wav</ShortName>
+					<Path>SFX\PlayerFootstep_wood_heel_01_10C4C929.wem</Path>
+				</File>
+				<File Id="669347300" Language="SFX">
+					<ShortName>PlayerFootstep_concrete_toe_06.wav</ShortName>
+					<Path>SFX\PlayerFootstep_concrete_toe_06_10C4C929.wem</Path>
+				</File>
+				<File Id="671041515" Language="SFX">
+					<ShortName>PlayerFootstep_wood_toe_04.wav</ShortName>
+					<Path>SFX\PlayerFootstep_wood_toe_04_10C4C929.wem</Path>
+				</File>
+				<File Id="692834119" Language="SFX">
+					<ShortName>PlayerFootstep_metal_toe_03.wav</ShortName>
+					<Path>SFX\PlayerFootstep_metal_toe_03_10C4C929.wem</Path>
+				</File>
+				<File Id="693686008" Language="SFX">
+					<ShortName>PlayerFootstep_grass_toe_05.wav</ShortName>
+					<Path>SFX\PlayerFootstep_grass_toe_05_10C4C929.wem</Path>
+				</File>
+				<File Id="696162535" Language="SFX">
+					<ShortName>claw_floor1.wav</ShortName>
+					<Path>SFX\claw_floor1_10C4C929.wem</Path>
+				</File>
+				<File Id="707602532" Language="SFX">
+					<ShortName>PlayerFootstep_grass_heel_04.wav</ShortName>
+					<Path>SFX\PlayerFootstep_grass_heel_04_10C4C929.wem</Path>
+				</File>
+				<File Id="709211751" Language="SFX">
+					<ShortName>PlayerFootstep_water_toe_01.wav</ShortName>
+					<Path>SFX\PlayerFootstep_water_toe_01_10C4C929.wem</Path>
+				</File>
+				<File Id="720431889" Language="SFX">
+					<ShortName>bark5.wav</ShortName>
+					<Path>SFX\bark5_10C4C929.wem</Path>
+				</File>
+				<File Id="738670553" Language="SFX">
+					<ShortName>claw_floor2.wav</ShortName>
+					<Path>SFX\claw_floor2_10C4C929.wem</Path>
+				</File>
+				<File Id="738928641" Language="SFX">
+					<ShortName>PlayerFootstep_water_toe_05.wav</ShortName>
+					<Path>SFX\PlayerFootstep_water_toe_05_10C4C929.wem</Path>
+				</File>
+				<File Id="751090474" Language="SFX">
+					<ShortName>PlayerFootstep_concrete_toe_02.wav</ShortName>
+					<Path>SFX\PlayerFootstep_concrete_toe_02_10C4C929.wem</Path>
+				</File>
+				<File Id="752633926" Language="SFX">
+					<ShortName>rip1.wav</ShortName>
+					<Path>SFX\rip1_10C4C929.wem</Path>
+				</File>
+				<File Id="757116151" Language="SFX">
+					<ShortName>bark1.wav</ShortName>
+					<Path>SFX\bark1_10C4C929.wem</Path>
+				</File>
+				<File Id="778755964" Language="SFX">
+					<ShortName>level_music.wav</ShortName>
+					<Path>SFX\level_music_D79FB2B7.wem</Path>
+				</File>
+				<File Id="826706057" Language="SFX">
+					<ShortName>growl4.wav</ShortName>
+					<Path>SFX\growl4_10C4C929.wem</Path>
+				</File>
+				<File Id="834429097" Language="SFX">
+					<ShortName>PlayerFootstep_wood_toe_02.wav</ShortName>
+					<Path>SFX\PlayerFootstep_wood_toe_02_10C4C929.wem</Path>
+				</File>
+				<File Id="866647338" Language="SFX">
+					<ShortName>PlayerFootstep_grass_heel_05.wav</ShortName>
+					<Path>SFX\PlayerFootstep_grass_heel_05_10C4C929.wem</Path>
+				</File>
+				<File Id="876723637" Language="SFX">
+					<ShortName>PlayerFootstep_concrete_heel_05.wav</ShortName>
+					<Path>SFX\PlayerFootstep_concrete_heel_05_10C4C929.wem</Path>
+				</File>
+				<File Id="896163121" Language="SFX">
+					<ShortName>PlayerFootstep_grass_heel_01.wav</ShortName>
+					<Path>SFX\PlayerFootstep_grass_heel_01_10C4C929.wem</Path>
+				</File>
+				<File Id="900809104" Language="SFX">
+					<ShortName>PlayerFootstep_metal_toe_02.wav</ShortName>
+					<Path>SFX\PlayerFootstep_metal_toe_02_10C4C929.wem</Path>
+				</File>
+				<File Id="919913607" Language="SFX">
+					<ShortName>bark4.wav</ShortName>
+					<Path>SFX\bark4_10C4C929.wem</Path>
+				</File>
+				<File Id="939356410" Language="SFX">
+					<ShortName>PlayerFootstep_water_toe_04.wav</ShortName>
+					<Path>SFX\PlayerFootstep_water_toe_04_10C4C929.wem</Path>
+				</File>
+				<File Id="943976074" Language="SFX">
+					<ShortName>angler_chomp.wav</ShortName>
+					<Path>SFX\angler_chomp_10C4C929.wem</Path>
+				</File>
+				<File Id="953834084" Language="SFX">
+					<ShortName>PlayerFootstep_water_heel_04.wav</ShortName>
+					<Path>SFX\PlayerFootstep_water_heel_04_10C4C929.wem</Path>
+				</File>
+				<File Id="955276262" Language="SFX">
+					<ShortName>PlayerFootstep_wood_toe_05.wav</ShortName>
+					<Path>SFX\PlayerFootstep_wood_toe_05_10C4C929.wem</Path>
+				</File>
+				<File Id="969087043" Language="SFX">
+					<ShortName>PlayerFootstep_metal_toe_06.wav</ShortName>
+					<Path>SFX\PlayerFootstep_metal_toe_06_10C4C929.wem</Path>
+				</File>
+				<File Id="973446745" Language="SFX">
+					<ShortName>PlayerFootstep_concrete_heel_03.wav</ShortName>
+					<Path>SFX\PlayerFootstep_concrete_heel_03_10C4C929.wem</Path>
+				</File>
+				<File Id="993919616" Language="SFX">
+					<ShortName>PlayerFootstep_concrete_heel_02.wav</ShortName>
+					<Path>SFX\PlayerFootstep_concrete_heel_02_10C4C929.wem</Path>
+				</File>
+				<File Id="997840750" Language="SFX">
+					<ShortName>claw_floor6.wav</ShortName>
+					<Path>SFX\claw_floor6_10C4C929.wem</Path>
+				</File>
+				<File Id="1007978950" Language="SFX">
+					<ShortName>claw_floor3.wav</ShortName>
+					<Path>SFX\claw_floor3_10C4C929.wem</Path>
+				</File>
+				<File Id="1028401320" Language="SFX">
+					<ShortName>PlayerFootstep_wood_toe_01.wav</ShortName>
+					<Path>SFX\PlayerFootstep_wood_toe_01_10C4C929.wem</Path>
+				</File>
+				<File Id="1046668701" Language="SFX">
+					<ShortName>PlayerFootstep_water_toe_06.wav</ShortName>
+					<Path>SFX\PlayerFootstep_water_toe_06_10C4C929.wem</Path>
+				</File>
+				<File Id="1068555009" Language="SFX">
+					<ShortName>PlayerFootstep_metal_heel_01.wav</ShortName>
+					<Path>SFX\PlayerFootstep_metal_heel_01_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
